@@ -1,0 +1,126 @@
+{# **************** GLOBAL VS LOCAL ASSETS *****************
+  *                                                       *
+  * Important note: When importing, including, or extending files in Nunjucks the file path is relative to the campaign level.
+  * In this example the file path is pointing to the global 'assets' folder which contains another global folder 'layout' containing 'sublayout.html'. 
+  * 'sublayout.html' lives in a global folder so it will be available to all messages in the campaign.
+  * To override a global asset file with a local version change the file path to the message level:
+    - For example, to use a local 'sublayout.html' file:
+      change 'assets/layout/sublayout.html' to 'message-template/src/layout/sublayout.html'
+#}
+{%- extends 'assets/layout/sublayout.html' %}
+
+{# set image server #}
+{%- set gum = "https://services.google.com/fh/files/emails/" -%}
+{#
+  Add images to 'assets/images/ and uncomment this 'gumdrop' path for local image preview:
+  {%- set gum = "../../assets/images/" -%}
+#}
+{%- set img_spacer = gum ~ "spacer.png" -%}
+
+{# MOD1 Header image #}
+{%- set img_360 = gum ~ "css_guru_header.png" %}
+
+{# MOD6 Steps image #}
+{%- set mod6_img_d = gum ~ "css_guru_steps.png" %}
+{%- set mod6_img_m = gum ~ "css_guru_steps_mob.png" %}
+
+{# declare copy splits (if needed) #}
+
+{# freemarker #}
+{%- block freemarker %}
+  {%- include 'assets/partial/links.ftl' %}
+  {#
+    {%- include 'message-template/src/partial/links.ftl' %}
+    You can include message-specific link partials here. Replace 'message-template' with your message folder name.
+  #}
+{%- endblock %}
+
+{%- block email_partials %}
+
+{# Note: Remove this SET and FOR loop if you are not using mod library macros for your build #}  
+  {% set contents = [
+    base.comment("!-------------- MOD1 Header -------------!"),
+    base.spacer("20"),
+    base.module(
+      class="sbs-1-1",
+      contents=[
+        base.two_column_stacked(
+          left_contents=[
+            base.spacer("35", class="mobile"),
+            base.text(mod1_headline, element="h1", class="bold left hero-font-style"),
+            base.spacer("35", class="mobile")
+          ],
+          right_contents=[
+            base.image(img_360, link="https://google.com", alt="", width="360", height="360")
+          ]
+        )
+      ]
+    ),
+    base.comment("!-------------- Stack 1.1 -------------!"),
+    base.module(
+      class="stack-1-1",
+      contents=[
+        base.box(
+          class="stack-inner-box", bgcolor="#ffffff",
+          contents=[
+            base.spacer("55"),
+            base.text(mod2_headline, element="h1", class="bold left font-600"),
+            base.spacer("21"),
+            base.text(mod2_subhead, class="left font-400"),
+            base.spacer("55"),
+            base.text(mod3_headline, element="h1", class="bold left font-600"),
+            base.spacer("21"),
+            base.text(mod3_subhead, class="left font-400"),
+            base.spacer("55"),
+            base.text(mod4_headline, element="h1", class="bold left font-600"),
+            base.spacer("21"),
+            base.text(mod4_subhead, class="left font-400"),
+            base.spacer("55"),
+            base.text(mod5_headline, element="h1", class="bold left font-600"),
+            base.spacer("21"),
+            base.text(mod5_subhead, class="left font-400"),
+            base.spacer("55")
+          ]
+        )
+      ]
+    ),
+
+
+    base.comment("!-------------- Stack 1.1 -------------!"),
+    base.module(
+      class="stack-1-1",
+      contents=[
+        base.box(
+          class="stack-inner-box", bgcolor="#ffffff",
+          contents=[
+            base.spacer("35"),
+            base.text(mod6_headline, element="h1", class="bold left font-600"),
+            base.spacer("21"),
+            base.text(mod6_subhead, class="left font-400"),
+            base.spacer("18"),
+            base.image(mod6_img_d, link="#", alt="", width="600", height="114", class="desktop"),
+            base.image(mod6_img_m, link="#", alt="", width="188", height="510", class="mobile"),
+            base.spacer("18"),
+            base.button(mod6_cta, link="#", class="solid-blue", align="left"),
+            base.spacer("35"),
+            base.text(signoff, class="solid-blue font-400 left"),
+            base.spacer("35")
+          ]
+        )
+      ]
+    ),
+
+    base.comment("!-------------- Add social and HATS sections here -------------!"),
+      base.spacer("8"),
+      base.text(disclaimer, element="h6"),
+      base.spacer("11"),
+      base.text(google_address, element="h6"),
+      base.spacer("11"),
+      base.text(optout, element="h6", class="optout")
+  ] %}
+  
+  {% for content in contents %}
+    {{ content }}
+  {% endfor %}
+
+{%- endblock %}

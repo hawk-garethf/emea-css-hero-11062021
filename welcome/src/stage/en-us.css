@@ -1,0 +1,620 @@
+/**************** GLOBAL VS LOCAL LESS *****************
+  *                                                       *
+  * Important note: When importing files in LESS you will need to add a prefix to the file path depending on whether you are importing from the global or local `less` folder.
+  *
+  * If importing styles from the global folder add the prefix './../' to the file path.   
+      For example: './../assets/less/base_styles.less'
+
+  * If importing styles from a local folder you do NOT need the file path and only the prefix './' is required.
+      For example: './base_styles.less'
+  *
+*/
+/* INITAL STYLES BEFORE MEDIA QUERY SWITCH - SET FOR DEKSTOP */
+/*
+TO SAVE CODE IN RESPONSIVE DESIGN:
+- DO NOT USE ANY PREMAILER.
+- DO NOT INCLUDE ANY LONG CSS ON ANY TD LEVEL.
+- USE FONT-FAMILY ON THE CLASS LEVEL AVOID THE TD SELECTOR. 
+- REMOVE SPACES AT THE BEGINNING OR END OF { } IN CLASSES.
+- MANUALLY ADD cellpadding="0" cellspacing="0" TO EACH TABLE IN YOUR HTML.
+- IF YOU CAN, TRY USING 4 WAY PADDING IN MOBILE (LESS HTML) vs VERTICAL SPACES NEEDED FOR OUTLOOK DESKTOP.
+*/
+.masthead {
+  padding: 0;
+}
+.masthead a {
+  display: inline-block;
+  padding: 14px 0;
+}
+/* TYPOGRAPHY MUST BE INITIALIZED FROM SKETCH */
+/* THIS MESSAGE BUTTONS RESETS */
+/* Covers all styles (outline-blue, outline-white, solid-blue, solid-white) */
+/* MOBILE FONTS RESPONSIVE ADJUSTMENT */
+/* DESKTOP vs MOBILE WIDTHS */
+/* Images */
+/* global styles */
+body {
+  font-family: 'Google Sans', Roboto, sans-serif, Arial;
+  font-size: 0;
+  color: #423F3F;
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+/* a {color: #4285F4; text-decoration: none;} */
+/** 
+ * a11y updated (text links need to be #1967D2 per slide 10, 12:https://docs.google.com/presentation/d/18OiYtPJMPjFMTQuZtA_XCFWyCmfaR4w0t_Jc1CmrAXk/edit?ts=5f1b72cf#slide=id.g8b40bdbc81_0_1 
+ */
+a {
+  color: #1967D2;
+  text-decoration: none;
+}
+img {
+  border: none;
+  outline: none;
+  display: block;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 0;
+}
+strong p,
+.bold p,
+strong h1,
+.bold h1,
+strong h2,
+.bold h2,
+strong h3,
+.bold h3,
+strong h4,
+.bold h4,
+strong h5,
+.bold h5,
+strong h6,
+.bold h6 {
+  font-weight: bold;
+}
+.medium p,
+.medium h1,
+.medium h2,
+.medium h3,
+.medium h4,
+.medium h5,
+.medium h6 {
+  font-weight: 500;
+}
+.center {
+  text-align: center;
+}
+img.center,
+div.center,
+table.center {
+  margin: 0 auto;
+}
+.left {
+  text-align: left !important;
+}
+.right {
+  text-align: right !important;
+}
+.no-wrap,
+.nowrap {
+  white-space: nowrap;
+}
+.pad-left-30 {
+  padding-left: 30px;
+}
+.italic {
+  font-style: italic;
+}
+.italic p,
+.italic h1,
+.italic h2,
+.italic h3,
+.italic h4,
+.italic h5,
+.italic h6 {
+  font-style: italic;
+}
+.unstyle-link,
+.unstyle-link a {
+  text-decoration: none;
+  color: #423F3F !important;
+  font-size: inherit;
+  line-height: inherit;
+  cursor: text;
+  pointer-events: none;
+}
+.unstyle-link-2,
+.unstyle-link-2 a {
+  text-decoration: none;
+  color: #1967D2;
+  font-size: inherit;
+  line-height: inherit;
+}
+.container {
+  width: 720px;
+  margin: 0 auto;
+}
+.desktop-size {
+  width: 720px;
+  padding: 0px;
+  margin: 0 auto;
+}
+.mobile-size {
+  width: 360px;
+  max-width: 360px;
+  padding: 0px;
+  margin: 0 auto;
+}
+.email-container {
+  width: 720px;
+  padding: 0px;
+  margin: 0 auto;
+}
+.mobile {
+  display: none;
+}
+span.mobile {
+  display: none;
+  font-size: 0;
+  line-height: 0;
+}
+.preview {
+  display: none;
+  font-size: 0;
+  line-height: 0;
+  height: 0;
+}
+.preheader {
+  padding: 15px 64px;
+  background-color: #1A73E8;
+}
+.preheader p {
+  font-size: 15px;
+  line-height: 23px;
+}
+.masthead {
+  padding: 14px 0;
+  text-align: center;
+  /*
+    - added: 11/4/2020 @huyb
+    - reason: Factor requested a solid white bg to deal with transparency issues on dark mode
+    - WF ticket: https://epsilonagency.my.workfront.com/issue/view?ID=5fa1712f042bdbebcd64c421c3456474
+  */
+  background: url('http://services.google.com/fh/files/emails/hw_mod_library_masthead_bg_fff_dark_mode_720x55_2x.jpg');
+  background-size: 100%;
+  background-position: bottom;
+}
+.footer .copy {
+  padding: 0 100px;
+}
+.footer .copy.optout {
+  padding: 0 75px;
+}
+#ios-gmail-fix {
+  text-align: center;
+}
+#ios-gmail-fix td {
+  color: #ffffff;
+  white-space: nowrap;
+  font-size: 14px;
+  text-align: center;
+}
+.gmail-fix td {
+  font-size: 0;
+  line-height: 0;
+}
+.module {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+}
+.copy {
+  font-family: 'Google Sans', Roboto, sans-serif, Arial;
+  text-align: center;
+}
+.copy.left {
+  text-align: left;
+}
+.copy.right {
+  text-align: right;
+}
+.h1-1 > h1 {
+  color: #423F3F;
+  font-size: 42px;
+  line-height: 51px;
+  font-weight: 700;
+}
+h1 {
+  color: #423F3F;
+  font-size: 24px;
+  line-height: 30px;
+}
+h2 {
+  color: #423F3F;
+  font-size: 20px;
+  line-height: 26px;
+}
+h3 {
+  color: #423F3F;
+  font-size: 15px;
+  line-height: 20px;
+}
+h4 {
+  color: #423F3F;
+  font-size: 20px;
+  line-height: 26px;
+}
+h5 {
+  color: #423F3F;
+  font-size: 14px;
+  line-height: 22px;
+}
+h6 {
+  color: #423F3F;
+  font-size: 8px;
+  line-height: 11px;
+}
+p {
+  color: #423F3F;
+  font-size: 14px;
+  line-height: 22px;
+}
+.text-query p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.blue h1,
+.blue h2,
+.blue h3,
+.blue h4,
+.blue h5,
+.blue h6,
+.blue p {
+  color: #1967D2;
+}
+.white h1,
+.white h2,
+.white h3,
+.white h4,
+.white h5,
+.white h6,
+.white p,
+.white a {
+  color: #ffffff;
+}
+.button {
+  font-family: 'Google Sans', Roboto, sans-serif, Arial;
+}
+.button a.spacer-top,
+.button a.spacer-bottom {
+  display: block;
+  height: 0px;
+  font-size: 0px;
+  line-height: 0px;
+}
+.button a.visible {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #1A73E8;
+  border: 2px solid #1A73E8;
+  mso-border-alt: none;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 13px 20px;
+  text-align: center;
+  font-weight: 500;
+}
+.button.primary a.visible {
+  font-size: 16px;
+  line-height: 22px;
+  padding: 13px 20px;
+}
+.button.secondary a.spacer-top {
+  height: 6px;
+  font-size: 6px;
+  line-height: 6px;
+}
+.button.secondary a.spacer-bottom {
+  height: 5px;
+  font-size: 5px;
+  line-height: 5px;
+}
+.button.secondary a.visible {
+  font-size: 14px;
+  padding: 5px 17px 6px;
+}
+.button.solid-blue a.visible {
+  background-color: #1A73E8;
+  color: #ffffff;
+}
+.button.outline-blue a.visible {
+  background-color: #ffffff;
+  color: #1967D2;
+}
+.button.outline-white a.visible {
+  background-color: none;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+.button.full-width > table {
+  width: 100%;
+}
+.query {
+  background-color: #E0E0E0;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #212121;
+  font-family: 'Google Sans', Roboto, sans-serif, Arial;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 9px 16px;
+  mso-padding-alt: 6px 16px 10px;
+  text-align: left;
+}
+.query.center {
+  text-align: center;
+}
+.gstore .chevron {
+  vertical-align: middle;
+}
+.gstore .chevron.mobile {
+  display: none;
+  width: 0;
+}
+.gstore .chevron img.chev-gray,
+.gstore .chevron img.chev-white {
+  display: inline-block;
+  padding-left: 3px;
+  width: 6px;
+  height: 10px;
+}
+@media only screen and (min-width: 622px) {
+  .container {
+    width: 720px;
+    padding: 0px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 621px), only screen and (min-width: 360px) and (max-width: 767px) {
+  /* Samsung support */
+  .desktop {
+    display: none !important;
+    height: 0 !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+  }
+  img.mobile {
+    display: block !important;
+    height: auto !important;
+  }
+  table.mobile {
+    display: table !important;
+  }
+  tr.mobile {
+    display: table-row !important;
+  }
+  td.mobile {
+    display: table-cell !important;
+  }
+  span.mobile {
+    display: inline !important;
+    font-size: inherit !important;
+    line-height: inherit !important;
+  }
+  .preheader {
+    padding: 15px 28px !important;
+  }
+  .container {
+    width: 360px !important;
+    max-width: 360px !important;
+  }
+  .module {
+    width: 100%;
+  }
+  .two-column-stack .left-col,
+  .two-column-stack .right-col {
+    float: none;
+    width: 100%;
+  }
+  .stack {
+    width: 360px;
+  }
+  .stack .col-1,
+  .stack .col-2,
+  .stack .col-3,
+  .stack .col-4,
+  .stack .col-5,
+  .stack .stacked-col {
+    width: 100%;
+    display: block;
+  }
+  .bold p,
+  .bold h1,
+  .bold h2,
+  .bold h3,
+  .bold h4,
+  .bold h5,
+  .bold h6 {
+    font-weight: 700;
+  }
+  .h1-1 > h1 {
+    font-size: 31px !important;
+    line-height: 47px !important;
+  }
+  /*
+    - added: 11/4/2020 @huyb
+    - reason: Factor requested a solid white bg to deal with transparency issues on dark mode
+    - WF ticket: https://epsilonagency.my.workfront.com/issue/view?ID=5fa1712f042bdbebcd64c421c3456474
+  */
+  .masthead {
+    background: url('http://services.google.com/fh/files/emails/hw_mod_library_masthead_bg_fff_dark_mode_360x55_2x.jpg') !important;
+  }
+  .gstore .chevron.desktop {
+    display: none !important;
+  }
+  .gstore .chevron.mobile {
+    display: inline-block !important;
+  }
+  .gstore .chevron img.chev-white {
+    display: inline-block !important;
+    padding-left: 3px !important;
+    width: 6px !important;
+    height: 10px !important;
+  }
+  .footer .copy {
+    padding: 0 20px !important;
+  }
+}
+/* Device specific MQs */
+/* ANDROID PHONES */
+@media only screen and (device-width: 412px) and (orientation: portrait), only screen and (device-width: /* Pixel 1, 2, 3XL */ 393px) and (orientation: portrait), only screen and (device-width: /* Pixel 3 */ 360px) and (orientation: portrait) {
+  /* Samsung & Sony */
+  /*.button {
+    & > table > tr > td a {
+      padding-top: 13px;
+      padding-bottom: 14px;
+    }
+    &.outline > table > tr > td a {
+      padding-top: 13px;
+      padding-bottom: 12px;
+    }
+  }*/
+  .full-width img {
+    width: 100%;
+  }
+  .h1-1 > h1 {
+    font-size: 28.52px;
+    line-height: 43.24px;
+  }
+  h1 {
+    font-size: 22.08px;
+    line-height: 27.6px;
+  }
+  h2 {
+    font-size: 18.4px;
+    line-height: 23.92px;
+  }
+  h3 {
+    font-size: 13.8px;
+    line-height: 18.4px;
+  }
+  h4 {
+    font-size: 18.4px;
+    line-height: 23.92px;
+  }
+  h5 {
+    font-size: 12.88px;
+    line-height: 20.24px;
+  }
+  h6 {
+    font-size: 7.36px;
+    line-height: 10.12px;
+  }
+  p {
+    font-size: 12.88px;
+    line-height: 20.24px;
+  }
+  .button a > div {
+    font-size: 14.72px;
+    line-height: 20.24px;
+  }
+  .button.secondary a > div {
+    font-size: 12.88px;
+    line-height: 20.24px;
+  }
+  .query td {
+    font-size: 12.88px;
+    line-height: 18.4px;
+  }
+  .text-query p {
+    font-size: 12.88px;
+    line-height: 18.4px;
+  }
+}
+@media only screen and (device-width: 320px) and (orientation: portrait), only screen and (device-width: 375px) and (orientation: portrait), only screen and (device-width: 414px) and (orientation: portrait), only screen and (min-device-width: 319px) and (max-device-width: 321px), only screen and (min-device-width: 374px) and (max-device-width: 376px), only screen and (min-device-width: 413px) and (max-device-width: 415px) {
+  u + .body .h1-1 > h1 {
+    font-size: 29.45px;
+    line-height: 44.65px;
+  }
+  u + .body h1 {
+    font-size: 22.8px;
+    line-height: 28.5px;
+  }
+  u + .body h2 {
+    font-size: 19px;
+    line-height: 24.7px;
+  }
+  u + .body h3 {
+    font-size: 14.25px;
+    line-height: 19px;
+  }
+  u + .body h4 {
+    font-size: 19px;
+    line-height: 24.7px;
+  }
+  u + .body h5 {
+    font-size: 13.3px;
+    line-height: 20.9px;
+  }
+  u + .body h6 {
+    font-size: 7.6px;
+    line-height: 10.45px;
+  }
+  u + .body p {
+    font-size: 13.3px;
+    line-height: 20.9px;
+  }
+  u + .body strong p,
+  u + .body .bold p,
+  u + .body strong h1,
+  u + .body .bold h1,
+  u + .body strong h2,
+  u + .body .bold h2,
+  u + .body strong h3,
+  u + .body .bold h3,
+  u + .body strong h4,
+  u + .body .bold h4,
+  u + .body strong h5,
+  u + .body .bold h5,
+  u + .body strong h6,
+  u + .body .bold h6 {
+    font-weight: 700;
+  }
+}
+@media only screen and (device-width: 414px) and (orientation: portrait) {
+  .show-gmail {
+    display: table-cell;
+  }
+  .show-gmail img {
+    display: block;
+  }
+}
+.hero-font-style h1 {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 70px;
+  color: #4285F4;
+}
+.font-600 p {
+  font-weight: 600;
+  font-size: 24px;
+}
+.font-400 p {
+  font-weight: 400;
+  font-size: 18px;
+}

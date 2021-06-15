@@ -1,0 +1,72 @@
+{# **************** GLOBAL VS LOCAL ASSETS *****************
+  *                                                       *
+  * Important note: When importing, including, or extending files in Nunjucks the file path is relative to the campaign level.
+  * In this example the file path is pointing to the global 'assets' folder which contains another global folder 'layout' containing 'base_layout.html'. 
+  * 'base_layout.html' lives in a global folder so it will be available to all messages in the campaign.
+  * To override a global asset file with a local version change the file path to the message level:
+    - For example, to use a local 'base_layout.html' file:
+      change 'assets/layout/base_layout.html' to 'message-template/src/layout/base_layout.html'
+#}
+{%- extends 'assets/layout/base_layout.html' %}
+
+{# images #}
+{%- set gum = "https://services.google.com/fh/files/emails/" -%}
+{#
+  Add images to 'assets/images/ and uncomment this 'gumdrop' path for local image preview:
+  {%- set gum = "../../assets/images/" -%}
+#}
+{# import macro library base #}
+{%- import 'assets/partial/macro_base.html' as base with context %}
+
+
+{%- block email_content %}
+  <table class="container" role="presentation" dir="{{ dir }}" align="center" bgcolor="#ffffff" cellpadding="0" cellspacing="0"> 
+  
+
+    {# msam: 01-27-2021 -- Preheader is situated above the masthead and displays if the variable "preheader_copy" is defined and is not empty. #}
+    {% if preheader_copy is defined and preheader_copy|trim != "" %}
+      {%- block preheader -%} 
+        <tr>
+          <td class="preheader white bold"> 
+            <p class="center">{{ preheader_copy }}</p>
+          </td>
+        </tr>  
+      {%- endblock -%}
+    {% endif %}
+
+    <!-- masthead -->
+    {#
+      use the composer here for your logo on line 33: https://connect.corp.google.com/composer/#/composer/snippet/9326626
+      if your logo is not in the any of the macros in the composer, add a macro with your logo
+    #}
+    {%- block masthead -%}
+      <tr>
+        <td class="masthead">
+          <@img_nest alt='' /> 
+        </td>
+      </tr>
+    {%- endblock masthead -%}
+
+    <!-- content module -->
+    {%- block email_partials %}
+      Use ../index.html
+    {%- endblock email_partials %}
+
+    <!-- support module -->
+    {%- block support -%}
+      {# empty for now #}
+    {%- endblock support -%}
+
+    <!-- footer module -->
+    {%- block footer -%}
+      {# empty for now #}
+      <#include '/gkmsid/10017115' />
+      <#if yt_code?? && yt_code?lower_case != "">
+      <@global_footer disclaimer='{{ disclaimer }}' />
+      <#else>
+      <@global_footer disclaimer='{{ disclaimer_alt }}' />
+      </#if>
+    {%- endblock footer -%} 
+
+  </table>
+{%- endblock email_content %} 
