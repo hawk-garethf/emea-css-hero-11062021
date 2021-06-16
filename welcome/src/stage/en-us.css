@@ -145,12 +145,12 @@ table.center {
   line-height: inherit;
 }
 .container {
-  width: 720px;
+  width: 600px;
   margin: 0 auto;
 }
 .desktop-size {
-  width: 720px;
-  padding: 0px;
+  width: 600px;
+  padding: 0 60px;
   margin: 0 auto;
 }
 .mobile-size {
@@ -160,8 +160,8 @@ table.center {
   margin: 0 auto;
 }
 .email-container {
-  width: 720px;
-  padding: 0px;
+  width: 600px;
+  padding: 0 60px;
   margin: 0 auto;
 }
 .mobile {
@@ -385,8 +385,8 @@ p {
 }
 @media only screen and (min-width: 622px) {
   .container {
-    width: 720px;
-    padding: 0px;
+    width: 600px;
+    padding: 0 60px;
     margin: 0 auto;
   }
 }
@@ -613,8 +613,26 @@ p {
 .font-600 p {
   font-weight: 600;
   font-size: 24px;
+  line-height: 30px;
 }
 .font-400 p {
   font-weight: 400;
   font-size: 18px;
+  line-height: 24px;
+}
+li {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 16px 0;
+}
+.list-style-circle {
+  list-style: circle;
+}
+.list-no-margin {
+  margin: 0;
+}
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
 }

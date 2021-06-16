@@ -62,7 +62,53 @@
         </tr>
       </table>
       <!-- /Email Container end-->
+      <div width="100%" style="width: 100%; background-color: #f5f5f5;">
+        <div style="max-width: 768px; margin: 0 auto;">
+          <!-- Footer Body : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto; max-width: 768px;">
+            <tbody>
+              <tr>
+                <td align="center" valign="top" style="max-width: 768px;">
+                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+                    <tbody>
+                      <!-- 1 Column Text : BEGIN -->
+                      <tr>
+                        <td style="background-color: #f5f5f5; " class="footer-row-container">
+                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tbody>
+                              <tr>
+                                <td dir="lrt" align="center" style="text-align: center; padding: 0 84px; font-family:'Google Sans', sans-serif; font-weight:400; font-size:10px; line-height:14px; color:#9AA0A6; " class="footer-row m-p-50">
+                                  <p style="margin: 30px 0 30px 0; font-family:'Google Sans', sans-serif; font-weight:400; font-size:10px; line-height:14px; color:#9AA0A6;">
+                                    <img src="https://services.google.com/fh/files/emails/abs_optiscore_bottom_logo.png" style="border:none; display:block; outline:none; width:76px; margin: 0 auto;" width="76px">
+                                  </p>
+                                  <p style="margin: 0 0 20px 0; font-family:'Google Sans', sans-serif; font-weight:400; font-size:13px; line-height:15px; color:#9AA0A6;">
+                                    This email was sent to <span style="word-wrap:break-word; word-break:break-all;">${EmailAddress?replace('@','&#65279;@&#65279;')?replace('.','&#65279;.&#65279;')?no_esc}</span> because you were identified as being interested in the Comparison Shopping Hero programme. Google maintains and processes your information according to its Privacy Policy, available at: <a href="https://policies.google.com/privacy" target="_blank" style="color:#1A73E8; text-decoration:none;">https://policies.google.com/privacy</a>. If you would like to no longer receive such communication please unsubscribe <a href="${optout('https://docs.google.com/forms/d/e/1FAIpQLScsYPfmflnm3t72JPGljz5aYr9pG3mPh0eBUx4AvOPxJ1J9tA/viewform')}" target="_blank" style="color:#1A73E8; text-decoration:none;">here</a>. You have the right to request access to or to update your information and request that it be deleted. Please fill out the Data Access Request <a href="https://support.google.com/policies/contact/sar" target="_blank" style="color:#1A73E8; text-decoration:none;">Form</a> if you would like to exercise any of these rights.
+                                  </p>
+
+                                  <p style="margin: 0 0 50px 0; font-family:'Google Sans', sans-serif; font-weight:400; font-size:13px; line-height:15px; color:#9AA0A6;">
+                                    Google Ireland Ltd, Gordon House, Barrow Street, Dublin 4, Ireland, Registered in Ireland:&nbsp;368047.
+                                  </p>
+
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- 1 Column Text : END -->
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- Footer Body : END -->
+          <!--[if mso]></td></tr></table><![endif]-->
+        </div>
+        <!--[if mso | IE]></td></tr></table><![endif]-->
+      </div>
       {%- block gmail_fix %}
+      
         <table role="presentation" id="gmail-fix-ios" class="" style="border:0; border-collapse:collapse; margin:0 auto" cellpadding="0" cellspacing="0">
           <tr>
             <td style="font-size:1px; line-height:1px; padding:0;"><img src="http://www.gstatic.com/gmktg/dub-img/1x1_transparent.png" height="1" width="90" alt="" ></td>
@@ -74,6 +120,7 @@
         </table>
       {% endblock gmail_fix %}
     </section>
+    
   </body>
 </html>
 </#compress>

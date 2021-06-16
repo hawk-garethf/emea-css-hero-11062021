@@ -17,12 +17,13 @@
 #}
 {%- set img_spacer = gum ~ "spacer.png" -%}
 
-{# MOD1 Header image #}
-{%- set img_360 = gum ~ "css_guru_header.png" %}
+{# MOD6 Steps image #}
+{%- set mod1_img_d = gum ~ "comparison_shopping_hero_v4_option2.gif" %}
+{%- set mod1_img_m = gum ~ "css_guru_steps_mob.png" %}
 
 {# MOD6 Steps image #}
-{%- set mod6_img_d = gum ~ "css_guru_steps.png" %}
-{%- set mod6_img_m = gum ~ "css_guru_steps_mob.png" %}
+{%- set mod5_img_d = gum ~ "css_guru_steps.png" %}
+{%- set mod5_img_m = gum ~ "css_guru_steps_mob.png" %}
 
 {# declare copy splits (if needed) #}
 
@@ -40,18 +41,16 @@
 {# Note: Remove this SET and FOR loop if you are not using mod library macros for your build #}  
   {% set contents = [
     base.comment("!-------------- MOD1 Header -------------!"),
-    base.spacer("20"),
+    base.spacer("35"),
+    base.comment("!-------------- Stack 1.1 -------------!"),
     base.module(
-      class="sbs-1-1",
+      class="stack-1-1",
       contents=[
-        base.two_column_stacked(
-          left_contents=[
-            base.spacer("35", class="mobile"),
-            base.text(mod1_headline, element="h1", class="bold left hero-font-style"),
-            base.spacer("35", class="mobile")
-          ],
-          right_contents=[
-            base.image(img_360, link="https://google.com", alt="", width="360", height="360")
+        base.box(
+          class="stack-inner-box", bgcolor="#ffffff",
+          contents=[
+            base.image(mod1_img_d, link="#", alt="", width="600", height="250", class="desktop"),
+            base.image(mod1_img_m, link="#", alt="", width="188", height="510", class="mobile")
           ]
         )
       ]
@@ -78,45 +77,25 @@
             base.spacer("55"),
             base.text(mod5_headline, element="h1", class="bold left font-600"),
             base.spacer("21"),
-            base.text(mod5_subhead, class="left font-400"),
-            base.spacer("55")
-          ]
-        )
-      ]
-    ),
-
-
-    base.comment("!-------------- Stack 1.1 -------------!"),
-    base.module(
-      class="stack-1-1",
-      contents=[
-        base.box(
-          class="stack-inner-box", bgcolor="#ffffff",
-          contents=[
-            base.spacer("35"),
+            base.image(mod5_img_d, link="#", alt="", width="600", height="114", class="desktop"),
+            base.image(mod5_img_m, link="#", alt="", width="188", height="510", class="mobile"),
+            base.spacer("55"),
             base.text(mod6_headline, element="h1", class="bold left font-600"),
             base.spacer("21"),
             base.text(mod6_subhead, class="left font-400"),
-            base.spacer("18"),
-            base.image(mod6_img_d, link="#", alt="", width="600", height="114", class="desktop"),
-            base.image(mod6_img_m, link="#", alt="", width="188", height="510", class="mobile"),
-            base.spacer("18"),
-            base.button(mod6_cta, link="#", class="solid-blue", align="left"),
+            base.spacer("55"),
+            base.text(mod7_headline, element="h1", class="bold left font-600"),
+            base.spacer("21"),
+            base.text(mod7_subhead, class="left font-400"),
+            base.spacer("55"),
+            base.button(mod8_cta, link="https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero", class="solid-blue", btn_align="left"),
             base.spacer("35"),
             base.text(signoff, class="solid-blue font-400 left"),
             base.spacer("35")
           ]
         )
       ]
-    ),
-
-    base.comment("!-------------- Add social and HATS sections here -------------!"),
-      base.spacer("8"),
-      base.text(disclaimer, element="h6"),
-      base.spacer("11"),
-      base.text(google_address, element="h6"),
-      base.spacer("11"),
-      base.text(optout, element="h6", class="optout")
+    )
   ] %}
   
   {% for content in contents %}

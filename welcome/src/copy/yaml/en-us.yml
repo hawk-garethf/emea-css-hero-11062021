@@ -3,55 +3,43 @@ from: '"CSS Shopping Ads" <css-shopping-ads-noreply@google.com>'
 subject: >-
   Welcome to Comparison Shopping Hero program
 preview_copy: ''
-page_title: ''
-mod1_headline: 'Comparison Shopping Hero'
-mod1_subhead: >-
-mod2_headline: 'Become a Comparison Shopping Hero'
+page_title: 'Comparison Shopping Hero program'
+mod2_headline: 'Time to become a ‘Comparison Shopping Hero’'
 mod2_subhead: >-
-  Step up and become a Hero for your Comparison Shopping Service.
-  <br /><br />
-  You've been nominated for a brand new invite-only training course designed to help selected practitioners at Comparison Shopping Partners become product experts.
-mod3_headline: 'Welcome to the program'
+  Time to become a Hero for your CSS in 2021. You've been nominated for our invite-only training course designed to help an elite group of practitioners at Comparison Shopping Partners become product experts. 
+mod3_headline: 'Welcome to the 2021 program'
 mod3_subhead: >-
   We’ll take you through a journey consisting of 4 different product modules, through which you’ll access in-depth Shopping ads related knowledge.
-  <br /><br />
-  Additionally, you can grow your Comparison Shopping Service, by learning how to effectively discuss shopping products to boost your internal and external conversations.
 mod4_headline: 'What’s in it for you?'
 mod4_subhead: >-
   You’ll join an elite group of practitioners with a Google certification in pitching, creating, and optimising Shopping Ads. As a Hero within your Comparison Shopping Service, you’ll also be equipped with the material, insights, and best practices to train your colleagues and win more client pitches.
   <br /><br />
   <ul>
-    <li><strong>Earn a Google certification</strong> in optimising shopping campaigns, but also training others to do the same.</li>
-    <li><strong>Get access to Google specialists</strong> who will share the latest product updates helping you make strategic decisions.</li>
-    <li>Become a <strong>Comparison Shopping Hero</strong> and be recognised as an expert in shopping ads within your CSS.</li>
-    <li><strong>Grow your CSS profile</strong> by getting certified.</li>
+    <li class="list-style-circle"><strong>Earn a Google Certification</strong> while learning pitching, creating, optimising Shopping campaigns and getting to know best practises to train your colleagues to win more client pitches too.</li>
+    <li class="list-style-circle"><strong>Get access to Google materials, insights and specialists,</strong> who will share the latest product updates helping you make strategic decisions.</li>
+    <li class="list-style-circle">Become a <strong>Comparison Shopping Hero</strong> and be recognised as an expert in Shopping ads within your CSS.</li>
+    <li class="list-style-circle list-no-margin"><strong>Grow your CSS profile</strong> by getting certified.</li>
   </ul>
-mod5_headline: 'How can you get certified as a Comparison Shopping Hero?'
-mod5_subhead: >-
-  <ul>
-    <li>Attend the four livestream sessions <u>AND</u></li>
-    <li>Submit a 5 minute video of you imagining to pitch one of the products discussed in the livestream to a customer OR training relevant members at your CSS (recording of a training delivered via VC is fine).</li>
-  </ul>
-  
-mod6_headline: 'To join the program, you need to:'
+mod5_headline: 'Your Certification journey'
+mod6_headline: 'How can you get certified as a Comparison Shopping Hero?'
 mod6_subhead: >-
   <ul>
-    <li>Register to the program here by June 8th.</li>
-    <li>Expect at least 5 hours to dedicate to the program.</li>
-    <li>Be motivated to become your CSS go-to expert, ready to make an impact beyond the accounts you manage.</li>
+    <li>Watch the 4 livestream modules until the end <u>AND</u></li>
+    <li class="list-no-margin">Submit a 5 minute video of you imagining to pitch one of the products from the sessions to a customer OR training members at your CSS (recording of a training delivered via VC is fine).</li>
   </ul>
-  Please see below a representation of the different steps.
-mod6_cta: 'Register now'
+  
+mod7_headline: 'To join the program, you need to:'
+mod7_subhead: >-
+  <ul>
+    <li class="list-style-circle">Register to the program with <strong>your company email</strong> by <strong>July 7th below</strong>.</li>
+    <li class="list-style-circle">Expect at least 4 hours to dedicate to the program.</li>
+    <li class="list-style-circle list-no-margin">Be motivated to become your CSS go-to expert, ready to make an impact beyond the accounts you manage.</li>
+  </ul>
+mod8_cta: 'Register now'
 signoff: >-
-  Please reach out to cshero@google.com or contact your PerfX Account Manager for questions about the program.
+  Please reach out to <strong><a href="mailto:cshero@google.com">cshero@google.com</a></strong> or contact your PerfX Account Manager for questions about the program.
   <br /><br />
   See you online,
   <br /> 
   <strong>Your Comparison Shopping Partners Team</strong>
-hats_headline: 'Was this email helpful?'
-disclaimer:
-  - '&sup1; Requires internet connection.'
-  - '&sup2; PLACEHOLDER COPY'
-  - '&sup3; PLACEHOLDER COPY'
-google_address: &copy; ${.now?string('yyyy')} G&#65279;oo&#65279;gle L&#65279;LC<br />16&#8203;0&#65279;0 A&#65279;m&#65279;p&#65279;h&#65279;ith&#8203;eatre Park&#8203;way,<br />Moun&#8203;tain Vie&#8203;w, CA 94&#8203;043
-optout: 'You are receiving this welcome message because you recently activated your Google account on a&nbsp;Pixel.'
+
