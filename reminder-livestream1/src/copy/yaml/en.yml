@@ -1,0 +1,44 @@
+# Google Pixel(Floral) Welcome
+from: '"CSS Shopping Ads" <css-shopping-ads-noreply@google.com>'
+subject: >-
+  Comparison Shopping Hero 2021: livestream 1 starts tomorrow
+preview_copy: ''
+page_title: 'Comparison Shopping Hero program'
+mod1_subhead: >-
+  <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Dear ${FirstName?capitalize}, <#else>Hi, </#if>
+  <br /><br />
+  We’re counting down the hours to livestream 1 which starts tomorrow at <span style="white-space:nowrap;"><strong>11:00 a.m. CEST</strong></span>.
+  <br /><br />
+  You will be able to enter the webinar up to 15 minutes before the scheduled start time. 
+mod8_cta: 'Watch here'
+signoff: >-
+  Check out the <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero/resources#', 'ResourcesPage')}">Resources page</a> of the program website to submit your session-related questions and access educational content after the livestream. 
+  <br /><br />
+  See you soon,
+  <br /> 
+  <strong>Your Comparison Shopping Partners Team</strong>
+
+main_content_pt: >-
+  <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Dear ${FirstName?capitalize}, <#else>Hi, </#if>
+
+  We’re counting down the hours to livestream 1 which starts tomorrow at 11:00 a.m. CEST.
+
+  You will be able to enter the webinar up to 15 minutes before the scheduled start time. 
+
+  Watch here
+
+  Check out the <https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero/resources#>Resources page of the program website to submit your session-related questions and access educational content after the livestream. 
+  See you soon,
+  Your Comparison Shopping Partners Team
+
+footer_pt: >-
+  ----------------------------
+
+  This email was sent to ${EmailAddress} because you were identified as being interested in the Comparison Shopping Hero programme. Google maintains and processes your information according to its Privacy Policy, available at: https://policies.google.com/privacy. If you would like to no longer receive such communication please unsubscribe here. You have the right to request access to or to update your information and request that it be deleted. Please fill out the Data Access Request Form if you would like to exercise any of these rights.
+
+  Privacy
+  <https://policies.google.com/privacy>
+  unsubscribe here
+  <${optout('https://docs.google.com/forms/d/e/1FAIpQLScsYPfmflnm3t72JPGljz5aYr9pG3mPh0eBUx4AvOPxJ1J9tA/viewform')}>
+  Data Access Request Form
+  <https://support.google.com/policies/contact/sar>
