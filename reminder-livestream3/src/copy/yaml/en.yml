@@ -7,9 +7,9 @@ page_title: 'Comparison Shopping Hero program'
 mod1_subhead: >-
   <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Dear ${FirstName?capitalize}, <#else>Hi, </#if>
   <br /><br />
-  Livestream 3 starts tomorrow a <span style="white-space:nowrap;"><strong>1&#65279;1:&#65279;0&#65279;0 a.&#65279;m. C&#65279;E&#65279;S&#65279;T</strong></span>.
+  Livestream 3 starts tomorrow at <span style="white-space:nowrap;"><strong>1&#65279;1:&#65279;0&#65279;0 a.&#65279;m. C&#65279;E&#65279;S&#65279;T</strong></span>.
   <br /><br />
-  You will be able to enter the webinar up to 15 minutes before the scheduled start time. 
+  You will be able to enter the webinar up to 1&#8203;5 minutes before the scheduled start time. 
 mod8_cta: 'Watch here'
 signoff: >-
   Check out the <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero/resources#', 'ResourcesPage')}">Resources page</a> of the program website to submit your session-related questions and access educational content after the livestream.
@@ -22,7 +22,7 @@ signoff: >-
 main_content_pt: >-
   <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Dear ${FirstName?capitalize}, <#else>Hi, </#if>
 
-  Livestream 3 starts tomorrow a 11:00 a.m. CEST.
+  Livestream 3 starts tomorrow at 11:00 a.m. CEST.
 
   You will be able to enter the webinar up to 15 minutes before the scheduled start time. 
   

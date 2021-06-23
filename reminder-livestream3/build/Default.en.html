@@ -4,7 +4,33 @@
   github_path : https:/github.com/Hawkeye-Google-Email-Dev/emea-css-hero-11062021/tree/master/reminder-livestream3
 -->
 
-<#compress><#include '/gkmsid/10066901' ignore_missing=true />   <#include '/gkmsid/9877999' ignore_missing=true /> 
+<#compress>
+
+    
+    <#include '/gkmsid/9877999' ignore_missing=true /> 
+    <#include '/gkmsid/9882423' ignore_missing=true/> 
+    <#include '/gkmsid/9326626' ignore_missing=true/> 
+    <#include '/gkmsid/10066901' ignore_missing=true />  
+
+
+
+
+<#function link url track_name anchor="">
+
+  <#local 
+    utm_source = "utm_source=" + "evergreen"
+    utm_medium = "&utm_medium=" + "email_crm" 
+    utm_campaign = "&utm_campaign=" + "GS106074"
+    utm_term= "&utm_term=" + track_name
+    utm_content= "&utm_content=${gamma.messageId}"
+  >
+  <#local utm = "[concateSymbol]" + utm_source + utm_medium + utm_campaign + utm_term + utm_content>
+  <#local utmConcate = (url?contains("?"))?then("&", "?")>
+  <#return track(url + utm?replace("[concateSymbol]",utmConcate) + anchor, track_name)>
+</#function> 
+ 
+
+<#assign cta = link("https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero", "CTA") /><#include '/gkmsid/9877999' ignore_missing=true /> 
 <#include '/gkmsid/9882423' ignore_missing=true /> 
 <#include '/gkmsid/9326626' ignore_missing=true /> 
 
@@ -273,7 +299,7 @@
           
  
         
-            <a href="https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero" aria-hidden="false" style="color: #1967D2; text-decoration: none;">
+            <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}" aria-hidden="false" style="color: #1967D2; text-decoration: none;">
             <img src="https://services.google.com/fh/files/emails/comparison_shopping_hero_v4_option2.gif" height="250" width="600" alt="Register now" style="border: none; display: block; outline: none;">
             </a>
    
@@ -287,7 +313,7 @@
           
  
         
-            <a href="https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero" aria-hidden="false" style="color: #1967D2; text-decoration: none;">
+            <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}" aria-hidden="false" style="color: #1967D2; text-decoration: none;">
             <img src="https://services.google.com/fh/files/emails/css_hero_m_320_133_x2.gif" height="150" width="360" alt="Register now" style="border: none; display: block; outline: none;">
             </a>
    
@@ -334,7 +360,7 @@
   <tr>
     <td class="copy p left font-400" style="font-family: 'Google Sans', Roboto, sans-serif, Arial;" align="left !important">
       <p style="color: #423F3F; font-size: 18px; font-weight: 400; line-height: 24px; margin: 0;">
-          <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Dear ${FirstName?capitalize}, <#else>Hi, </#if> <br><br> Livestream 3 starts tomorrow a <span style="white-space:nowrap;"><strong>1&#65279;1:&#65279;0&#65279;0 a.&#65279;m. C&#65279;E&#65279;S&#65279;T</strong></span>. <br><br> You will be able to enter the webinar up to 15 minutes before the scheduled start time. 
+          <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Dear ${FirstName?capitalize}, <#else>Hi, </#if> <br><br> Livestream 3 starts tomorrow at <span style="white-space:nowrap;"><strong>1&#65279;1:&#65279;0&#65279;0 a.&#65279;m. C&#65279;E&#65279;S&#65279;T</strong></span>. <br><br> You will be able to enter the webinar up to 1&#8203;5 minutes before the scheduled start time. 
       </p>
     </td>
   </tr>
@@ -354,11 +380,11 @@
         <table role="presentation" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse; margin: 0 auto;" border="0">
           <tr>
             <td align="center">
-              <a class="spacer-top" href="https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero" style="color: #1967D2; display: block; font-size: 0px; height: 0px; line-height: 0px; text-decoration: none;"> </a>
-              <a class="visible" href="https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero" style="background-color: #1A73E8; border: 2px solid #1A73E8; border-radius: 4px; color: #ffffff; display: inline-block; font-size: 16px; font-weight: 500; line-height: 22px; mso-border-alt: none; padding: 13px 20px; text-align: center; text-decoration: none;">
+              <a class="spacer-top" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}" style="color: #1967D2; display: block; font-size: 0px; height: 0px; line-height: 0px; text-decoration: none;"> </a>
+              <a class="visible" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}" style="background-color: #1A73E8; border: 2px solid #1A73E8; border-radius: 4px; color: #ffffff; display: inline-block; font-size: 16px; font-weight: 500; line-height: 22px; mso-border-alt: none; padding: 13px 20px; text-align: center; text-decoration: none;">
                 Watch here
               </a>
-              <a class="spacer-bottom" href="https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero" style="color: #1967D2; display: block; font-size: 0px; height: 0px; line-height: 0px; text-decoration: none;"> </a>
+              <a class="spacer-bottom" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}" style="color: #1967D2; display: block; font-size: 0px; height: 0px; line-height: 0px; text-decoration: none;"> </a>
             </td>
           </tr>
         </table>

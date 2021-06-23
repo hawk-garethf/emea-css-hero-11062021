@@ -7,9 +7,9 @@ page_title: 'Comparison Shopping Hero program'
 mod1_subhead: >-
   <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Dear ${FirstName?capitalize}, <#else>Hi, </#if>
   <br /><br />
-  We’re counting down the hours to livestream 1 which starts tomorrow at <span style="white-space:nowrap;"><strong>11:00 a.m. CEST</strong></span>.
+  We’re counting down the hours to livestream 1 which starts tomorrow at <span style="white-space:nowrap;"><strong>1&#8203;1:&#8203;0&#8203;0 a.m. CEST</strong></span>.
   <br /><br />
-  You will be able to enter the webinar up to 15 minutes before the scheduled start time. 
+  You will be able to enter the webinar up to 1&#8203;5 minutes before the scheduled start time. 
 mod8_cta: 'Watch here'
 signoff: >-
   Check out the <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero/resources#', 'ResourcesPage')}">Resources page</a> of the program website to submit your session-related questions and access educational content after the livestream. 

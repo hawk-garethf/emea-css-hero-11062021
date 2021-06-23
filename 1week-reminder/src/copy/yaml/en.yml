@@ -1,0 +1,49 @@
+# Google Pixel(Floral) Welcome
+from: '"CSS Shopping Ads" <css-shopping-ads-noreply@google.com>'
+subject: >-
+  Comparison Shopping Hero: one week left to earn your Hero certification
+preview_copy: ''
+page_title: 'Comparison Shopping Hero program'
+mod1_subhead: >-
+  <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if>
+  <br /><br /> 
+  You are just one step away before getting certified as a Comparison Shopping Hero: complete the final step of submitting your 5-minute video <a href="${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform?usp=sf_link', '5MinVideo')}">here</a>, no later than <span style="white-space:nowrap;"><strong>A&#8203;u&#8203;gu&#8203;s&#8203;t 1&#8203;4&#8203;t&#8203;h!</strong></span>
+  <br /><br /> 
+  You can choose to train other members at your CSS (video-call is ok) OR to discuss the product as if you were pitching it to a client.
+mod2_cta: 'Submit your video'
+signoff: >-
+  <strong>Please note:</strong> watching all webinars is also a program requirement to apply for the certification. If you have missed some of the sessions, make sure you watch all modules <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CatchUp')}">here</a> by <span style="white-space:nowrap;"><strong>A&#8203;u&#8203;gu&#8203;s&#8203;t 1&#8203;4&#8203;t&#8203;h!</strong></span>.
+  <br /><br /> 
+  You can do it!
+  <br /> 
+  <strong>Your Comparison Shopping Partners Team</strong>
+
+main_content_pt: >-
+  <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if>
+  
+  You are just one step away before getting certified as a Comparison Shopping Hero: complete the final step of submitting your 5-minute video here, no later than August 14th!
+  <${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform?usp=sf_link', '5MinVideo')}>
+  
+  You can choose to train other members at your CSS (video-call is ok) OR to discuss the product as if you were pitching it to a client.
+
+  Submit your video
+  <${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform', 'CTA')}>
+
+  Please note: watching all webinars is also a program requirement to apply for the certification. If you have missed some of the sessions, make sure you watch all modules here by August 14th!.
+  <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CatchUp')}>
+
+  You can do it!
+  Your Comparison Shopping Partners Team
+
+footer_pt: >-
+  ----------------------------
+
+  This email was sent to ${EmailAddress} because you were identified as being interested in the Comparison Shopping Hero programme. Google maintains and processes your information according to its Privacy Policy, available at: https://policies.google.com/privacy. If you would like to no longer receive such communication please unsubscribe here. You have the right to request access to or to update your information and request that it be deleted. Please fill out the Data Access Request Form if you would like to exercise any of these rights.
+
+  Privacy
+  <https://policies.google.com/privacy>
+  unsubscribe here
+  <${optout('https://docs.google.com/forms/d/e/1FAIpQLScsYPfmflnm3t72JPGljz5aYr9pG3mPh0eBUx4AvOPxJ1J9tA/viewform')}>
+  Data Access Request Form
+  <https://support.google.com/policies/contact/sar>
+

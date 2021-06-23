@@ -1,0 +1,20 @@
+From: "CSS Shopping Ads" <css-shopping-ads-noreply@google.com>
+Subject: Comparison Shopping Hero: congratulations, you made it
+
+
+<${view_in_browser()}>
+
+
+<#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if>
+Excellent work, you’ve successfully completed the Comparison Shopping Hero program.
+As a Comparison Shopping Hero, we hope you feel empowered to act as the Shopping Ads expert at your CSS. 
+Here are a few ways for you to amplify your achievements:
+Access your certificate here. Download your Comparison Shopping Hero signature asset here. Follow these steps to include your certificate on LinkedIn.
+Lastly, please take a moment to share your feedback about the program and where we could improve next time.
+Take our survey <${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform', 'CTA')}>
+We appreciate your time, thank you! Your Comparison Shopping Partners Team
+
+----------------------------
+This email was sent to ${EmailAddress} because you were identified as being interested in the Comparison Shopping Hero programme. Google maintains and processes your information according to its Privacy Policy, available at: https://policies.google.com/privacy. If you would like to no longer receive such communication please unsubscribe here. You have the right to request access to or to update your information and request that it be deleted. Please fill out the Data Access Request Form if you would like to exercise any of these rights.
+Privacy  unsubscribe here <${optout('https://docs.google.com/forms/d/e/1FAIpQLScsYPfmflnm3t72JPGljz5aYr9pG3mPh0eBUx4AvOPxJ1J9tA/viewform')}> Data Access Request Form 
+

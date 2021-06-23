@@ -6,8 +6,8 @@ preview_copy: ''
 page_title: 'Comparison Shopping Hero program'
 mod2_headline: 'Time to become a ‘Comparison Shopping Hero’'
 mod2_subhead: >-
-  Time to become a Hero for your CSS in 2021. You've been nominated for our invite-only training course designed to help an elite group of practitioners at Comparison Shopping Partners become product experts. 
-mod3_headline: 'Welcome to the 2021 program'
+  Time to become a Hero for your CSS in 2&#8203;0&#8203;2&#8203;1. You've been nominated for our invite-only training course designed to help an elite group of practitioners at Comparison Shopping Partners become product experts. 
+mod3_headline: 'Welcome to the 2&#8203;0&#8203;2&#8203;1 program'
 mod3_subhead: >-
   We’ll take you through a journey consisting of 4 different product modules, through which you’ll access in-depth Shopping ads related knowledge.
 mod4_headline: 'What’s in it for you?'
@@ -48,7 +48,7 @@ main_content_pt: >-
   Time to become a Hero for your CSS in 2021. You've been nominated for our invite-only training course designed to help an elite group of practitioners at Comparison Shopping Partners become product experts. 
 
   Welcome to the 2021 program
-   take you through a journey consisting of 4 different product modules, through which you’ll access in-depth Shopping ads related knowledge.
+  We'll take you through a journey consisting of 4 different product modules, through which you’ll access in-depth Shopping ads related knowledge.
 
   What’s in it for you?
   You’ll join an elite group of practitioners with a Google certification in pitching, creating, and optimising Shopping Ads. As a Hero within your Comparison Shopping Service, you’ll also be equipped with the material, insights, and best practices to train your colleagues and win more client pitches.
@@ -69,7 +69,8 @@ main_content_pt: >-
   Be motivated to become your CSS go-to expert, ready to make an impact beyond the accounts you manage.
 
   Register now
-  <https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero>
+  <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}>
+
 
   Please reach out to <cshero@google.com> or contact your PerfX Account Manager for questions about the program.
 

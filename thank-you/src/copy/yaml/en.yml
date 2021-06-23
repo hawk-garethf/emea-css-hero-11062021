@@ -1,0 +1,66 @@
+# Google Pixel(Floral) Welcome
+from: '"CSS Shopping Ads" <css-shopping-ads-noreply@google.com>'
+subject: >-
+  Comparison Shopping Hero: next steps to get certified.
+preview_copy: ''
+page_title: 'Comparison Shopping Hero program'
+mod1_subhead: >-
+  <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if>
+  <br /><br /> 
+  Thanks for completing the livestream training, you’re just one step away from becoming a ‘Comparison Shopping Hero’.
+  <br /><br /> 
+  Please submit your 5-minute video <a href="${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform?usp=sf_link', '5MinVideo')}">here</a> by <span style="white-space:nowrap;"><strong>J&#8203;u&#8203;l&#8203;y 1&#8203;4&#8203;t&#8203;h</strong></span>. Your video should focus on one of these two situations:
+  <br /><br /> 
+  <ul>
+    <li>you replicating the training to relevant members at your CSS (video-call recording is ok).</li>
+    <li>you discussing the product as if you were pitching it to a client.</li>
+  </ul>
+  <br /><br /> 
+  Useful resources:
+  <ul>
+    <li>You can still submit your product questions <a href="${track('https://forms.gle/GR6njRqY6FKdrmcy5', 'SubmitQuestions')}">here</a> until <span style="white-space:nowrap;"><strong>J&#8203;u&#8203;l&#8203;y 1&#8203;0&#8203;th</strong></span>.</li>
+    <li>Explore the <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero/resources#', 'ResourcesPage')}">Resources</a> section on the program website for answers to frequently asked product questions, webinar slides and more, to help you prepare.</li>
+    <li>Reach out to <strong><a href="mailto:cshero@google.com">cshero@google.com</a></strong> if you have questions about the program.</li>
+  </ul>
+mod2_cta: 'Submit your video'
+signoff: >-
+  We will reach out to you starting <span style="white-space:nowrap;"><strong>J&#8203;ul&#8203;y 2&#8203;3&#8203;r&#8203;d</strong></span> and wish you good luck!
+  <br /> 
+  <strong>Your Comparison Shopping Partners Team</strong>
+
+main_content_pt: >-
+  <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if>
+
+  Thanks for completing the livestream training, you’re just one step away from becoming a ‘Comparison Shopping Hero’.
+
+  Please submit your 5-minute video here by July 14th. Your video should focus on one of these two situations:
+  <${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform?usp=sf_link', '5MinVideo')}>
+  you replicating the training to relevant members at your CSS (video-call recording is ok).
+  ou discussing the product as if you were pitching it to a client.
+
+  Useful resources:
+  You can still submit your product questions here until July 10th.
+  <${track('https://forms.gle/GR6njRqY6FKdrmcy5', 'SubmitQuestions')}>
+
+  Explore the Resources section on the program website for answers to frequently asked product questions, webinar slides and more, to help you prepare.
+  <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero/resources#', 'ResourcesPage')}>
+  Reach out to cshero@google.com if you have questions about the program.
+
+  Submit your video
+  <${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform', 'CTA')}>
+
+  We will reach out to you starting July 23rd and wish you good luck!
+  Your Comparison Shopping Partners Team
+
+footer_pt: >-
+  ----------------------------
+
+  This email was sent to ${EmailAddress} because you were identified as being interested in the Comparison Shopping Hero programme. Google maintains and processes your information according to its Privacy Policy, available at: https://policies.google.com/privacy. If you would like to no longer receive such communication please unsubscribe here. You have the right to request access to or to update your information and request that it be deleted. Please fill out the Data Access Request Form if you would like to exercise any of these rights.
+
+  Privacy
+  <https://policies.google.com/privacy>
+  unsubscribe here
+  <${optout('https://docs.google.com/forms/d/e/1FAIpQLScsYPfmflnm3t72JPGljz5aYr9pG3mPh0eBUx4AvOPxJ1J9tA/viewform')}>
+  Data Access Request Form
+  <https://support.google.com/policies/contact/sar>
+

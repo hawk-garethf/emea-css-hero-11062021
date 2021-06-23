@@ -4,7 +4,32 @@
   github_path : https:/github.com/Hawkeye-Google-Email-Dev/emea-css-hero-11062021/tree/master/welcome
 -->
 
-<#compress><#include '/gkmsid/10066901' ignore_missing=true />   <#include '/gkmsid/9877999' ignore_missing=true /> 
+<#compress>
+    
+    <#include '/gkmsid/9877999' ignore_missing=true /> 
+    <#include '/gkmsid/9882423' ignore_missing=true/> 
+    <#include '/gkmsid/9326626' ignore_missing=true/> 
+    <#include '/gkmsid/10066901' ignore_missing=true />  
+
+
+
+
+<#function link url track_name anchor="">
+
+  <#local 
+    utm_source = "utm_source=" + "evergreen"
+    utm_medium = "&utm_medium=" + "email_crm" 
+    utm_campaign = "&utm_campaign=" + "GS106074"
+    utm_term= "&utm_term=" + track_name
+    utm_content= "&utm_content=${gamma.messageId}"
+  >
+  <#local utm = "[concateSymbol]" + utm_source + utm_medium + utm_campaign + utm_term + utm_content>
+  <#local utmConcate = (url?contains("?"))?then("&", "?")>
+  <#return track(url + utm?replace("[concateSymbol]",utmConcate) + anchor, track_name)>
+</#function> 
+ 
+
+<#assign cta = link("https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero", "CTA") /><#include '/gkmsid/9877999' ignore_missing=true /> 
 <#include '/gkmsid/9882423' ignore_missing=true /> 
 <#include '/gkmsid/9326626' ignore_missing=true /> 
 
@@ -148,7 +173,7 @@
   <tr>
     <td class="copy p left font-400">
       <p>
-          Time to become a Hero for your CSS in 2021. You've been nominated for our invite-only training course designed to help an elite group of practitioners at Comparison Shopping Partners become product experts. 
+          Time to become a Hero for your CSS in 2&#8203;0&#8203;2&#8203;1. You've been nominated for our invite-only training course designed to help an elite group of practitioners at Comparison Shopping Partners become product experts. 
       </p>
     </td>
   </tr>
@@ -166,7 +191,7 @@
   <tr>
     <td class="copy h1 bold left font-600">
       <h1>
-          Welcome to the 2021 program
+          Welcome to the 2&#8203;0&#8203;2&#8203;1 program
       </h1>
     </td>
   </tr>
@@ -379,11 +404,11 @@
         <table role="presentation" cellpadding="0" cellspacing="0" align="center">
           <tr>
             <td align="center">
-              <a class="spacer-top" href="https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero"> </a>
-              <a class="visible" href="https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero">
+              <a class="spacer-top" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}"> </a>
+              <a class="visible" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}">
                 Register now
               </a>
-              <a class="spacer-bottom" href="https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero"> </a>
+              <a class="spacer-bottom" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}"> </a>
             </td>
           </tr>
         </table>

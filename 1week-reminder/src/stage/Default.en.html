@@ -1,0 +1,294 @@
+<#--
+  message : 1week-reminder
+  WO : undefined
+  github_path : https:/github.com/Hawkeye-Google-Email-Dev/emea-css-hero-11062021/tree/master/1week-reminder
+-->
+
+<#compress>
+
+    
+    <#include '/gkmsid/9877999' ignore_missing=true /> 
+    <#include '/gkmsid/9882423' ignore_missing=true/> 
+    <#include '/gkmsid/9326626' ignore_missing=true/> 
+    <#include '/gkmsid/10066901' ignore_missing=true />  
+
+
+
+
+<#function link url track_name anchor="">
+
+  <#local 
+    utm_source = "utm_source=" + "evergreen"
+    utm_medium = "&utm_medium=" + "email_crm" 
+    utm_campaign = "&utm_campaign=" + "GS106074"
+    utm_term= "&utm_term=" + track_name
+    utm_content= "&utm_content=${gamma.messageId}"
+  >
+  <#local utm = "[concateSymbol]" + utm_source + utm_medium + utm_campaign + utm_term + utm_content>
+  <#local utmConcate = (url?contains("?"))?then("&", "?")>
+  <#return track(url + utm?replace("[concateSymbol]",utmConcate) + anchor, track_name)>
+</#function> 
+ 
+
+<#assign cta = link("https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero", "CTA") /><#include '/gkmsid/9877999' ignore_missing=true /> 
+<#include '/gkmsid/9882423' ignore_missing=true /> 
+<#include '/gkmsid/9326626' ignore_missing=true /> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html lang="${html_lang('en')}">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=yes,initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- smoosh -->
+    <link rel="stylesheet" href="en-us.css" />
+    <!-- endsmoosh -->
+    <title>Comparison Shopping Hero program</title><style type="text/css">
+        <!--[if mso]>
+          body, table, td, .btn, a {font-family: sans-serif !important;}
+          p.MsoNormal { margin: 0pt; margin-bottom: 0pt;}
+        <![endif]-->        
+      </style></head>  <body>    <section>
+      <!-- Email Container -->
+      <table id="email-container" role="presentation" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="100%" style="padding:0">  <table class="container" role="presentation" dir="" align="center" bgcolor="#ffffff" cellpadding="0" cellspacing="0"> 
+  
+
+    
+
+    <!-- masthead -->
+    
+    
+
+    <!-- content module -->
+  
+  
+    
+      
+
+    <tr>
+      <td style="font-size:35px;line-height:35px;padding:0;" colspan="1" height="35" class="">
+        &nbsp;
+      </td>
+    </tr>
+    
+
+    
+      
+    <tr>
+      <td class="container stack-1-1" bgcolor="" valign="top" background="" align="center" style="background-repeat: no-repeat;">
+        <div>
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" align="center">
+                
+    <tr>
+      <td align="center" valign="top">
+        <table role="presentation" align="center" class="" width="" bgcolor="#ffffff" cellpadding="0" cellspacing="0">
+          <tr>
+            <td class="stack-inner-box module" valign="top" background="">
+              <div>
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                      
+ 
+      <tr>
+        <td align="center" class="desktop">
+          
+ 
+        
+            <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}" aria-hidden="false">
+            <img src="https://services.google.com/fh/files/emails/comparison_shopping_hero_v4_option2.gif" height="250" width="600" alt="Register now" />
+            </a>
+   
+        </td>
+      </tr>
+
+                      
+ 
+      <tr>
+        <td align="center" class="mobile">
+          
+ 
+        
+            <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}" aria-hidden="false">
+            <img src="https://services.google.com/fh/files/emails/css_hero_m_320_133_x2.gif" height="150" width="360" alt="Register now" />
+            </a>
+   
+        </td>
+      </tr>
+
+                </table>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+          </table>
+        </div>
+      </td>
+    </tr>
+
+    
+      
+    <tr>
+      <td class="container stack-1-1" bgcolor="" valign="top" background="" align="center" style="background-repeat: no-repeat;">
+        <div>
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" align="center">
+                
+    <tr>
+      <td align="center" valign="top">
+        <table role="presentation" align="center" class="" width="" bgcolor="#ffffff" cellpadding="0" cellspacing="0">
+          <tr>
+            <td class="stack-inner-box module" valign="top" background="">
+              <div>
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                      
+
+    <tr>
+      <td style="font-size:55px;line-height:55px;padding:0;" colspan="1" height="55" class="">
+        &nbsp;
+      </td>
+    </tr>
+    
+
+                      
+  <tr>
+    <td class="copy p left font-400">
+      <p>
+          <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if> <br /><br />  You are just one step away before getting certified as a Comparison Shopping Hero: complete the final step of submitting your 5-minute video <a href="${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform?usp=sf_link', '5MinVideo')}">here</a>, no later than <span style="white-space:nowrap;"><strong>A&#8203;u&#8203;gu&#8203;s&#8203;t 1&#8203;4&#8203;t&#8203;h!</strong></span> <br /><br />  You can choose to train other members at your CSS (video-call is ok) OR to discuss the product as if you were pitching it to a client.
+      </p>
+    </td>
+  </tr>
+
+                      
+
+    <tr>
+      <td style="font-size:35px;line-height:35px;padding:0;" colspan="1" height="35" class="">
+        &nbsp;
+      </td>
+    </tr>
+    
+
+                      
+    <tr>
+      <td align="center" class="button  solid-blue">
+        <table role="presentation" cellpadding="0" cellspacing="0" align="center">
+          <tr>
+            <td align="center">
+              <a class="spacer-top" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}"> </a>
+              <a class="visible" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}">
+                Submit your video
+              </a>
+              <a class="spacer-bottom" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}"> </a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+                      
+
+    <tr>
+      <td style="font-size:35px;line-height:35px;padding:0;" colspan="1" height="35" class="">
+        &nbsp;
+      </td>
+    </tr>
+    
+
+                      
+  <tr>
+    <td class="copy p solid-blue font-400 left">
+      <p>
+          <strong>Please note:</strong> watching all webinars is also a program requirement to apply for the certification. If you have missed some of the sessions, make sure you watch all modules <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CatchUp')}">here</a> by <span style="white-space:nowrap;"><strong>A&#8203;u&#8203;gu&#8203;s&#8203;t 1&#8203;4&#8203;t&#8203;h!</strong></span>. <br /><br />  You can do it! <br />  <strong>Your Comparison Shopping Partners Team</strong>
+      </p>
+    </td>
+  </tr>
+
+                      
+
+    <tr>
+      <td style="font-size:35px;line-height:35px;padding:0;" colspan="1" height="35" class="">
+        &nbsp;
+      </td>
+    </tr>
+    
+
+                </table>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+          </table>
+        </div>
+      </td>
+    </tr>
+
+
+    <!-- support module --><!-- footer module --></table>  
+          </td>
+        </tr>
+      </table>
+      <!-- /Email Container end-->
+      <div width="100%" style="width: 100%; background-color: #f5f5f5;">
+        <div style="max-width: 768px; margin: 0 auto;">
+          <!-- Footer Body : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto; max-width: 768px;">
+            <tbody>
+              <tr>
+                <td align="center" valign="top" style="max-width: 768px;">
+                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+                    <tbody>
+                      <!-- 1 Column Text : BEGIN -->
+                      <tr>
+                        <td style="background-color: #f5f5f5; " class="footer-row-container">
+                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tbody>
+                              <tr>
+                                <td dir="lrt" align="center" style="text-align: center; padding: 0 84px; font-family:'Google Sans', sans-serif; font-weight:400; font-size:10px; line-height:14px; color:#9AA0A6; " class="footer-row m-p-50">
+                                  <p style="margin: 30px 0 30px 0; font-family:'Google Sans', sans-serif; font-weight:400; font-size:10px; line-height:14px; color:#9AA0A6;">
+                                    <img src="https://services.google.com/fh/files/emails/abs_optiscore_bottom_logo.png" style="border:none; display:block; outline:none; width:76px; margin: 0 auto;" width="76px">
+                                  </p>
+                                  <p style="margin: 0 0 20px 0; font-family:'Google Sans', sans-serif; font-weight:400; font-size:13px; line-height:15px; color:#9AA0A6;">
+                                    This email was sent to <span style="word-wrap:break-word; word-break:break-all;">${EmailAddress?replace('@','&#65279;@&#65279;')?replace('.','&#65279;.&#65279;')?no_esc}</span> because you were identified as being interested in the Comparison Shopping Hero programme. Google maintains and processes your information according to its Privacy Policy, available at: <a href="https://policies.google.com/privacy" target="_blank" style="color:#1A73E8; text-decoration:none;">https://policies.google.com/privacy</a>. If you would like to no longer receive such communication please unsubscribe <a href="${optout('https://docs.google.com/forms/d/e/1FAIpQLScsYPfmflnm3t72JPGljz5aYr9pG3mPh0eBUx4AvOPxJ1J9tA/viewform')}" target="_blank" style="color:#1A73E8; text-decoration:none;">here</a>. You have the right to request access to or to update your information and request that it be deleted. Please fill out the Data Access Request <a href="https://support.google.com/policies/contact/sar" target="_blank" style="color:#1A73E8; text-decoration:none;">Form</a> if you would like to exercise any of these rights.
+                                  </p>
+
+                                  <p style="margin: 0 0 50px 0; font-family:'Google Sans', sans-serif; font-weight:400; font-size:13px; line-height:15px; color:#9AA0A6;">
+                                    Google Ireland Ltd, Gordon House, Barrow Street, Dublin 4, Ireland, Registered in Ireland:&nbsp;368047.
+                                  </p>
+
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- 1 Column Text : END -->
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- Footer Body : END -->
+          <!--[if mso]></td></tr></table><![endif]-->
+        </div>
+        <!--[if mso | IE]></td></tr></table><![endif]-->
+      </div>      
+        <table role="presentation" id="gmail-fix-ios" class="" style="border:0; border-collapse:collapse; margin:0 auto" cellpadding="0" cellspacing="0">
+          <tr>
+            <td style="font-size:1px; line-height:1px; padding:0;"><img src="http://www.gstatic.com/gmktg/dub-img/1x1_transparent.png" height="1" width="90" alt="" ></td>
+            <td style="font-size:1px; line-height:1px; padding:0;"><img src="http://www.gstatic.com/gmktg/dub-img/1x1_transparent.png" height="1" width="90" alt="" ></td>
+            <td style="font-size:1px; line-height:1px; padding:0;"><img src="http://www.gstatic.com/gmktg/dub-img/1x1_transparent.png" height="1" width="90" alt="" ></td>
+            <td style="font-size:1px; line-height:1px; padding:0;"><img src="http://www.gstatic.com/gmktg/dub-img/1x1_transparent.png" height="1" width="90" alt="" ></td>
+            <td class="show-gmail" style="font-size:1px; line-height:1px; padding:0;display: none"><img src="http://www.gstatic.com/gmktg/dub-img/1x1_transparent.png" height="1" width="30" alt="" ></td>
+          </tr>
+        </table>
+    </section>
+    ${open()?no_esc}
+  </body>
+</html>
+</#compress>
