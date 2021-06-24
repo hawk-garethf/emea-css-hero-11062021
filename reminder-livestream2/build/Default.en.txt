@@ -1,16 +1,16 @@
 From: "CSS Shopping Ads" <css-shopping-ads-noreply@google.com>
-Subject: Comparison Shopping Hero 2021: livestream 2 goes live tomorrow
+Subject: Comparison Shopping Hero 2021: Local Ads livestream starts tomorrow
 
 
 <${view_in_browser()}>
 
 
 <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Dear ${FirstName?capitalize}, <#else>Hi, </#if>
-Livestream 2 starts tomorrow at 11:00 a.m. CEST.
+We’re counting down the hours to Local Ads livestream which starts tomorrow at 11:00 a.m. CEST.
 You will be able to enter the webinar up to 15 minutes before the scheduled start time. 
 Watch here
 Check out the Resources page of the program website to submit your session-related questions and access educational content after the livestream.
-If you missed our webinar last week, it’s still available to watch at a time that suits you.  Module X: livestream 2
+If you missed our webinar last week, it’s still available to watch at a time that suits you. Module 1: Shopping Product Roadmap <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021?talk=shopping-product-roadmap', 'ShoppingProductRoadmap')}>
 See you online, Your Comparison Shopping Partners Team
 
 ----------------------------

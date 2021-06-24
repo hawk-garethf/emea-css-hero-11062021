@@ -298,7 +298,7 @@
           
  
         
-            <a href="https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero" aria-hidden="false" style="color: #1967D2; text-decoration: none;">
+            <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CTA')}" aria-hidden="false" style="color: #1967D2; text-decoration: none;">
             <img src="https://services.google.com/fh/files/emails/comparison_shopping_hero_v4_option2.gif" height="250" width="600" alt="Register now" style="border: none; display: block; outline: none;">
             </a>
    
@@ -312,7 +312,7 @@
           
  
         
-            <a href="https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero" aria-hidden="false" style="color: #1967D2; text-decoration: none;">
+            <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CTA')}" aria-hidden="false" style="color: #1967D2; text-decoration: none;">
             <img src="https://services.google.com/fh/files/emails/css_hero_m_320_133_x2.gif" height="150" width="360" alt="Register now" style="border: none; display: block; outline: none;">
             </a>
    
@@ -357,27 +357,9 @@
 
                       
   <tr>
-    <td class="copy h1 bold left font-600" style="font-family: 'Google Sans', Roboto, sans-serif, Arial;" align="left !important">
-      <h1 style="color: #423F3F; font-size: 24px; font-weight: bold; line-height: 30px; margin: 0;">
-          Time to become a ‘Comparison Shopping Hero’
-      </h1>
-    </td>
-  </tr>
-
-                      
-
-    <tr>
-      <td style="font-size:21px;line-height:21px;padding:0;" colspan="1" height="21" class>
-        &nbsp;
-      </td>
-    </tr>
-    
-
-                      
-  <tr>
     <td class="copy p left font-400" style="font-family: 'Google Sans', Roboto, sans-serif, Arial;" align="left !important">
       <p style="color: #423F3F; font-size: 18px; font-weight: 400; line-height: 24px; margin: 0;">
-          Time to become a Hero for your CSS in 2&#8203;0&#8203;2&#8203;1. You've been nominated for our invite-only training course designed to help an elite group of practitioners at Comparison Shopping Partners become product experts. 
+          <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if> <br><br> Time to become a Hero for your CSS in 2&#8203;0&#8203;2&#8203;1. You've been nominated for our invite-only training course designed to help an elite group of practitioners at Comparison Shopping Partners become product experts. 
       </p>
     </td>
   </tr>
@@ -449,8 +431,8 @@
   <tr>
     <td class="copy p left font-400" style="font-family: 'Google Sans', Roboto, sans-serif, Arial;" align="left !important">
       <p style="color: #423F3F; font-size: 18px; font-weight: 400; line-height: 24px; margin: 0;">
-          You’ll join an elite group of practitioners with a Google certification in pitching, creating, and optimising Shopping Ads. As a Hero within your Comparison Shopping Service, you’ll also be equipped with the material, insights, and best practices to train your colleagues and win more client pitches. <br><br> <ul style="margin-block-end: 0; margin-block-start: 0;">
-  <li class="list-style-circle" style="font-size: 18px; font-weight: 400; line-height: 24px; list-style: circle; margin: 0 0 16px 0;"><strong>Earn a Google Certification</strong> while learning pitching, creating, optimising Shopping campaigns and getting to know best practises to train your colleagues to win more client pitches too.</li>
+          You’ll join an elite group of practitioners with a Google certification in pitching, creating, and optimising Shopping Ads. As a Hero within your CSS, you’ll also be equipped with the material, insights, and best practices to train your colleagues and win more client pitches. <br><br> <ul style="margin-block-end: 0; margin-block-start: 0;">
+  <li class="list-style-circle" style="font-size: 18px; font-weight: 400; line-height: 24px; list-style: circle; margin: 0 0 16px 0;"><strong>Earn a Google Certification</strong> and get to know best practises to train your colleagues to win more client pitches too.</li>
   <li class="list-style-circle" style="font-size: 18px; font-weight: 400; line-height: 24px; list-style: circle; margin: 0 0 16px 0;"><strong>Get access to Google materials, insights and specialists,</strong> who will share the latest product updates helping you make strategic decisions.</li>
   <li class="list-style-circle" style="font-size: 18px; font-weight: 400; line-height: 24px; list-style: circle; margin: 0 0 16px 0;">Become a <strong>Comparison Shopping Hero</strong> and be recognised as an expert in Shopping ads within your CSS.</li>
   <li class="list-style-circle list-no-margin" style="font-size: 18px; font-weight: 400; line-height: 24px; list-style: circle; margin: 0;"><strong>Grow your CSS profile</strong> by getting certified.</li>
@@ -608,11 +590,11 @@
         <table role="presentation" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse; margin: 0 auto;" border="0">
           <tr>
             <td align="center">
-              <a class="spacer-top" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}" style="color: #1967D2; display: block; font-size: 0px; height: 0px; line-height: 0px; text-decoration: none;"> </a>
-              <a class="visible" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}" style="background-color: #1A73E8; border: 2px solid #1A73E8; border-radius: 4px; color: #ffffff; display: inline-block; font-size: 16px; font-weight: 500; line-height: 22px; mso-border-alt: none; padding: 13px 20px; text-align: center; text-decoration: none;">
+              <a class="spacer-top" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CTA')}" style="color: #1967D2; display: block; font-size: 0px; height: 0px; line-height: 0px; text-decoration: none;"> </a>
+              <a class="visible" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CTA')}" style="background-color: #1A73E8; border: 2px solid #1A73E8; border-radius: 4px; color: #ffffff; display: inline-block; font-size: 16px; font-weight: 500; line-height: 22px; mso-border-alt: none; padding: 13px 20px; text-align: center; text-decoration: none;">
                 Register now
               </a>
-              <a class="spacer-bottom" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}" style="color: #1967D2; display: block; font-size: 0px; height: 0px; line-height: 0px; text-decoration: none;"> </a>
+              <a class="spacer-bottom" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CTA')}" style="color: #1967D2; display: block; font-size: 0px; height: 0px; line-height: 0px; text-decoration: none;"> </a>
             </td>
           </tr>
         </table>

@@ -1,21 +1,22 @@
 # Google Pixel(Floral) Welcome
 from: '"CSS Shopping Ads" <css-shopping-ads-noreply@google.com>'
 subject: >-
-  Welcome to Comparison Shopping Hero program
+  Welcome to the Comparison Shopping Hero 2021 program
 preview_copy: ''
 page_title: 'Comparison Shopping Hero program'
-mod2_headline: 'Time to become a ‘Comparison Shopping Hero’'
 mod2_subhead: >-
+  <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if>
+  <br /><br />
   Time to become a Hero for your CSS in 2&#8203;0&#8203;2&#8203;1. You've been nominated for our invite-only training course designed to help an elite group of practitioners at Comparison Shopping Partners become product experts. 
 mod3_headline: 'Welcome to the 2&#8203;0&#8203;2&#8203;1 program'
 mod3_subhead: >-
   We’ll take you through a journey consisting of 4 different product modules, through which you’ll access in-depth Shopping ads related knowledge.
 mod4_headline: 'What’s in it for you?'
 mod4_subhead: >-
-  You’ll join an elite group of practitioners with a Google certification in pitching, creating, and optimising Shopping Ads. As a Hero within your Comparison Shopping Service, you’ll also be equipped with the material, insights, and best practices to train your colleagues and win more client pitches.
+  You’ll join an elite group of practitioners with a Google certification in pitching, creating, and optimising Shopping Ads. As a Hero within your CSS, you’ll also be equipped with the material, insights, and best practices to train your colleagues and win more client pitches.
   <br /><br />
   <ul>
-    <li class="list-style-circle"><strong>Earn a Google Certification</strong> while learning pitching, creating, optimising Shopping campaigns and getting to know best practises to train your colleagues to win more client pitches too.</li>
+    <li class="list-style-circle"><strong>Earn a Google Certification</strong> and get to know best practises to train your colleagues to win more client pitches too.</li>
     <li class="list-style-circle"><strong>Get access to Google materials, insights and specialists,</strong> who will share the latest product updates helping you make strategic decisions.</li>
     <li class="list-style-circle">Become a <strong>Comparison Shopping Hero</strong> and be recognised as an expert in Shopping ads within your CSS.</li>
     <li class="list-style-circle list-no-margin"><strong>Grow your CSS profile</strong> by getting certified.</li>
@@ -44,16 +45,16 @@ signoff: >-
   <strong>Your Comparison Shopping Partners Team</strong>
 
 main_content_pt: >-
-  Time to become a ‘Comparison Shopping Hero’
+  <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if>
   Time to become a Hero for your CSS in 2021. You've been nominated for our invite-only training course designed to help an elite group of practitioners at Comparison Shopping Partners become product experts. 
 
   Welcome to the 2021 program
   We'll take you through a journey consisting of 4 different product modules, through which you’ll access in-depth Shopping ads related knowledge.
 
   What’s in it for you?
-  You’ll join an elite group of practitioners with a Google certification in pitching, creating, and optimising Shopping Ads. As a Hero within your Comparison Shopping Service, you’ll also be equipped with the material, insights, and best practices to train your colleagues and win more client pitches.
+  You’ll join an elite group of practitioners with a Google certification in pitching, creating, and optimising Shopping Ads. As a Hero within your CSS, you’ll also be equipped with the material, insights, and best practices to train your colleagues and win more client pitches.
 
-  Earn a Google Certification while learning pitching, creating, optimising Shopping campaigns and getting to know best practises to train your colleagues to win more client pitches too.
+  Earn a Google Certification and get to know best practises to train your colleagues to win more client pitches too.
   Get access to Google materials, insights and specialists, who will share the latest product updates helping you make strategic decisions.
   Become a Comparison Shopping Hero and be recognised as an expert in Shopping ads within your CSS.
   Grow your CSS profile by getting certified.
@@ -69,7 +70,7 @@ main_content_pt: >-
   Be motivated to become your CSS go-to expert, ready to make an impact beyond the accounts you manage.
 
   Register now
-  <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}>
+  <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CTA')}>
 
 
   Please reach out to <cshero@google.com> or contact your PerfX Account Manager for questions about the program.

@@ -94,7 +94,7 @@
           
  
         
-            <a href="https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero" aria-hidden="false">
+            <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CTA')}" aria-hidden="false">
             <img src="https://services.google.com/fh/files/emails/comparison_shopping_hero_v4_option2.gif" height="250" width="600" alt="Register now" />
             </a>
    
@@ -108,7 +108,7 @@
           
  
         
-            <a href="https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero" aria-hidden="false">
+            <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CTA')}" aria-hidden="false">
             <img src="https://services.google.com/fh/files/emails/css_hero_m_320_133_x2.gif" height="150" width="360" alt="Register now" />
             </a>
    
@@ -153,27 +153,9 @@
 
                       
   <tr>
-    <td class="copy h1 bold left font-600">
-      <h1>
-          Time to become a ‘Comparison Shopping Hero’
-      </h1>
-    </td>
-  </tr>
-
-                      
-
-    <tr>
-      <td style="font-size:21px;line-height:21px;padding:0;" colspan="1" height="21" class="">
-        &nbsp;
-      </td>
-    </tr>
-    
-
-                      
-  <tr>
     <td class="copy p left font-400">
       <p>
-          Time to become a Hero for your CSS in 2&#8203;0&#8203;2&#8203;1. You've been nominated for our invite-only training course designed to help an elite group of practitioners at Comparison Shopping Partners become product experts. 
+          <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if> <br /><br /> Time to become a Hero for your CSS in 2&#8203;0&#8203;2&#8203;1. You've been nominated for our invite-only training course designed to help an elite group of practitioners at Comparison Shopping Partners become product experts. 
       </p>
     </td>
   </tr>
@@ -245,8 +227,8 @@
   <tr>
     <td class="copy p left font-400">
       <p>
-          You’ll join an elite group of practitioners with a Google certification in pitching, creating, and optimising Shopping Ads. As a Hero within your Comparison Shopping Service, you’ll also be equipped with the material, insights, and best practices to train your colleagues and win more client pitches. <br /><br /> <ul>
-  <li class="list-style-circle"><strong>Earn a Google Certification</strong> while learning pitching, creating, optimising Shopping campaigns and getting to know best practises to train your colleagues to win more client pitches too.</li>
+          You’ll join an elite group of practitioners with a Google certification in pitching, creating, and optimising Shopping Ads. As a Hero within your CSS, you’ll also be equipped with the material, insights, and best practices to train your colleagues and win more client pitches. <br /><br /> <ul>
+  <li class="list-style-circle"><strong>Earn a Google Certification</strong> and get to know best practises to train your colleagues to win more client pitches too.</li>
   <li class="list-style-circle"><strong>Get access to Google materials, insights and specialists,</strong> who will share the latest product updates helping you make strategic decisions.</li>
   <li class="list-style-circle">Become a <strong>Comparison Shopping Hero</strong> and be recognised as an expert in Shopping ads within your CSS.</li>
   <li class="list-style-circle list-no-margin"><strong>Grow your CSS profile</strong> by getting certified.</li>
@@ -404,11 +386,11 @@
         <table role="presentation" cellpadding="0" cellspacing="0" align="center">
           <tr>
             <td align="center">
-              <a class="spacer-top" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}"> </a>
-              <a class="visible" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}">
+              <a class="spacer-top" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CTA')}"> </a>
+              <a class="visible" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CTA')}">
                 Register now
               </a>
-              <a class="spacer-bottom" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CTA')}"> </a>
+              <a class="spacer-bottom" href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CTA')}"> </a>
             </td>
           </tr>
         </table>

@@ -1,20 +1,20 @@
 # Google Pixel(Floral) Welcome
 from: '"CSS Shopping Ads" <css-shopping-ads-noreply@google.com>'
 subject: >-
-  Comparison Shopping Hero 2021: livestream 4 goes live tomorrow
+  Comparison Shopping Hero 2021: Export livestream starts tomorrow
 preview_copy: ''
 page_title: 'Comparison Shopping Hero program'
 mod1_subhead: >-
   <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Dear ${FirstName?capitalize}, <#else>Hi, </#if>
   <br /><br />
-  livestream 4 starts tomorrow at <span style="white-space:nowrap;"><strong>1&#65279;1:&#65279;0&#65279;0 a.&#65279;m. C&#65279;E&#65279;S&#65279;T</strong></span>.
+  We’re counting down the hours to Export livestream which starts tomorrow at <span style="white-space:nowrap;"><strong>1&#65279;1:&#65279;0&#65279;0 a.&#65279;m. C&#65279;E&#65279;S&#65279;T</strong></span>.
   <br /><br />
   You will be able to enter the webinar up to 1&#8203;5 minutes before the scheduled start time. 
 mod8_cta: 'Watch here'
 signoff: >-
-  Check out the <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero/resources#', 'ResourcesPage')}">Resources page</a> of the program website to submit your session-related questions and access educational content after the livestream.
+  Check out the <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021/resources#', 'ResourcesPage')}">Resources page</a> of the program website to submit your session-related questions and access educational content after the livestream.
   <br /><br />
-  If you missed our webinar last week, it’s still available to watch at a time that suits you.  Module X: livestream 4
+  If you missed our webinar last week, it’s still available to watch at a time that suits you. Module 3: <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021?talk=automated-bidding', 'AutomatedBidding')}">Automated Bidding</a>
   <br /><br />
   See you online,
   <br /> 
@@ -23,15 +23,17 @@ signoff: >-
 main_content_pt: >-
   <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Dear ${FirstName?capitalize}, <#else>Hi, </#if>
 
-  Livestream 4 starts tomorrow at 11:00 a.m. CEST.
+  We’re counting down the hours to Export livestream which starts tomorrow at 11:00 a.m. CEST.
 
   You will be able to enter the webinar up to 15 minutes before the scheduled start time. 
   
   Watch here
   
-  Check out the <https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero/resources#>Resources page of the program website to submit your session-related questions and access educational content after the livestream.
+  Check out the Resources page of the program website to submit your session-related questions and access educational content after the livestream.
+  <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021/resources#', 'ResourcesPage')}>
 
-  If you missed our webinar last week, it’s still available to watch at a time that suits you.  Module X: livestream 4
+  If you missed our webinar last week, it’s still available to watch at a time that suits you. Module 3: Automated Bidding
+  <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021?talk=automated-bidding', 'AutomatedBidding')}>
 
   See you online,
   Your Comparison Shopping Partners Team
