@@ -33,7 +33,7 @@ mod7_headline: 'To join the program, you need to:'
 mod7_subhead: >-
   <ul>
     <li class="list-style-circle">Register to the program with <strong>your company email</strong> by <strong>July 7th below</strong>.</li>
-    <li class="list-style-circle">Expect at least 4 hours to dedicate to the program.</li>
+    <li class="list-style-circle">Expect at least 2.5 hours to dedicate to the program.</li>
     <li class="list-style-circle list-no-margin">Be motivated to become your CSS go-to expert, ready to make an impact beyond the accounts you manage.</li>
   </ul>
 mod8_cta: 'Register now'
@@ -66,7 +66,7 @@ main_content_pt: >-
 
   To join the program, you need to:
   Register to the program with your company email by July 7th below.
-  Expect at least 4 hours to dedicate to the program.
+  Expect at least 2.5 hours to dedicate to the program.
   Be motivated to become your CSS go-to expert, ready to make an impact beyond the accounts you manage.
 
   Register now
