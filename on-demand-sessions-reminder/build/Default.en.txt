@@ -1,5 +1,5 @@
 From: "CSS Shopping Ads" <css-shopping-ads-noreply@google.com>
-Subject: Comparison Shopping Hero: one week left to earn your Hero certification
+Subject: Comparison Shopping Hero: watch all sessions by 24 August to get certified
 
 
 <${view_in_browser()}>

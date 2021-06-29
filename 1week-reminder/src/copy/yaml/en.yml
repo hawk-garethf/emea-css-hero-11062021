@@ -12,7 +12,7 @@ mod1_subhead: >-
   You can choose to train other members at your CSS (video-call is ok) OR to discuss the product as if you were pitching it to a client.
 mod2_cta: 'Submit your video'
 signoff: >-
-  <strong>Please note:</strong> watching all webinars is also a program requirement to apply for the certification. If you have missed some of the sessions, make sure you watch all modules <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CatchUp')}">here</a> by <span style="white-space:nowrap;"><strong>A&#8203;u&#8203;gu&#8203;s&#8203;t 1&#8203;4&#8203;t&#8203;h!</strong></span>.
+  <strong>Please note:</strong> watching all webinars is also a program requirement to apply for the certification. If you have missed some of the sessions, make sure you watch all modules <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CatchUp')}">here</a> by <span style="white-space:nowrap;"><strong>A&#8203;u&#8203;gu&#8203;s&#8203;t 1&#8203;4&#8203;t&#8203;h</strong></span>.
   <br /><br /> 
   You can do it!
   <br /> 
@@ -29,7 +29,7 @@ main_content_pt: >-
   Submit your video
   <${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform', 'CTA')}>
 
-  Please note: watching all webinars is also a program requirement to apply for the certification. If you have missed some of the sessions, make sure you watch all modules here by August 14th!.
+  Please note: watching all webinars is also a program requirement to apply for the certification. If you have missed some of the sessions, make sure you watch all modules here by August 14th.
   <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CatchUp')}>
 
   You can do it!

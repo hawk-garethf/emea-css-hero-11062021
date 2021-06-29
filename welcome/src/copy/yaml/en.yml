@@ -4,9 +4,9 @@ subject: >-
   Welcome to the Comparison Shopping Hero 2021 program
 preview_copy: ''
 page_title: 'Comparison Shopping Hero program'
+mod2_headline: >-
+  Time to become a ‘Comparison Shopping Hero’
 mod2_subhead: >-
-  <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if>
-  <br /><br />
   Time to become a Hero for your CSS in 2&#8203;0&#8203;2&#8203;1. You've been nominated for our invite-only training course designed to help an elite group of practitioners at Comparison Shopping Partners become product experts. 
 mod3_headline: 'Welcome to the 2&#8203;0&#8203;2&#8203;1 program'
 mod3_subhead: >-
