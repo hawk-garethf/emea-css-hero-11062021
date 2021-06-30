@@ -17,9 +17,15 @@
 #}
 {%- set img_spacer = gum ~ "spacer.png" -%}
 
+<<<<<<< HEAD
 {# MOD1 Hero #}
 {%- set mod1_img_m_preload = gum ~ "css_hero_m_320_133_x2.jpg" %}
 {%- set mod1_img_d_preload = gum ~ "comparison_shopping_hero_v4_option2.jpg" %}
+=======
+{# MOD6 Steps image #}
+{%- set mod1_img_m_preload = gum ~ "css_guru_steps_mob.jpg" %}
+{%- set mod1_img_d_preload = gum ~ "css_guru_steps.jpg" %}
+>>>>>>> e91c2e29653b67c3cc54e3e76218e15ecb2e6231
 {%- set mod1_img_d = gum ~ "comparison_shopping_hero_v4_option2.gif" %}
 {%- set mod1_img_m = gum ~ "css_hero_m_320_133_x2.gif" %}
 
@@ -42,7 +48,11 @@
     base.spacer("35"),
     base.comment("!-------------- Stack 1.1 -------------!"),
     base.module(
+<<<<<<< HEAD
       class="stack-1-1 mobile bg_img_m", bg_img=mod1_img_m_preload, width="360", height="150",
+=======
+      class="stack-1-1 mobile", bg_img=mod1_img_m_preload,
+>>>>>>> e91c2e29653b67c3cc54e3e76218e15ecb2e6231
       contents=[
         base.box(
           class="stack-inner-box", 
@@ -53,7 +63,11 @@
       ]
     ),
     base.module(
+<<<<<<< HEAD
       class="stack-1-1 desktop bg_img_d", bg_img=mod1_img_d_preload, width="600", height="250",
+=======
+      class="stack-1-1 desktop", bg_img=mod1_img_d_preload,
+>>>>>>> e91c2e29653b67c3cc54e3e76218e15ecb2e6231
       contents=[
         base.box(
           class="stack-inner-box", 
