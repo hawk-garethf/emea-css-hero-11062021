@@ -9,7 +9,7 @@ Subject: Comparison Shopping Hero: one week left to earn your Hero certification
 You are just one step away before getting certified as a Comparison Shopping Hero: complete the final step of submitting your 5-minute video here, no later than August 14th! <${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform?usp=sf_link', '5MinVideo')}>
 You can choose to train other members at your CSS (video-call is ok) OR to discuss the product as if you were pitching it to a client.
 Submit your video <${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform', 'CTA')}>
-Please note: watching all webinars is also a program requirement to apply for the certification. If you have missed some of the sessions, make sure you watch all modules here by August 14th!. <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CatchUp')}>
+Please note: watching all webinars is also a program requirement to apply for the certification. If you have missed some of the sessions, make sure you watch all modules here by August 14th. <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CatchUp')}>
 You can do it! Your Comparison Shopping Partners Team
 
 ----------------------------
