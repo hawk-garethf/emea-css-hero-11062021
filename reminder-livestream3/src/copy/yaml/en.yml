@@ -12,9 +12,9 @@ mod1_subhead: >-
   You will be able to enter the webinar up to 1&#8203;5 minutes before the scheduled start time. 
 mod8_cta: 'Watch here'
 signoff: >-
-  Check out the <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero/resources#', 'ResourcesPage')}">Resources page</a> of the program website to submit your session-related questions and access educational content after the livestream.
+  Check out the <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'ResourcesPage')}">Resources page</a> of the program website to submit your session-related questions and access educational content after the livestream.
   <br /><br />
-  If you missed our webinar last week, it’s still available to watch at a time that suits you.  Module X: <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021?talk=local-ads', 'LocalAds')}">Local Ads</a>
+  If you missed our webinar last week, it’s still available to watch at a time that suits you. Module 2: <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021?talk=local-ads', 'LocalAds')}">Local Ads</a>
   <br /><br />
   See you online,
   <br /> 
@@ -26,14 +26,10 @@ main_content_pt: >-
 
   You will be able to enter the webinar up to 15 minutes before the scheduled start time. 
   
-  Watch here
-  <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CTA')}>
-
-  Check out the Resources page of the program website to submit your session-related questions and access educational content after the livestream.
-  <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021/resources#', 'ResourcesPage')}>
+  Check out the <https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021>Resources page of the program website to submit your session-related questions and access educational content after the livestream.
 
   If you missed our webinar last week, it’s still available to watch at a time that suits you. Module 2: Local Ads
-  <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021?talk=local-ads', 'ShoppingProductRoadmap')}>
+  <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021?talk=local-ads', 'LocalAds')}>
 
   See you online,
   Your Comparison Shopping Partners Team

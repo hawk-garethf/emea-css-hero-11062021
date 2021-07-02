@@ -10,7 +10,11 @@ mod2_subhead: >-
   Time to become a Hero for your CSS in 2&#8203;0&#8203;2&#8203;1. You've been nominated for our invite-only training course designed to help an elite group of practitioners at Comparison Shopping Partners become product experts. 
 mod3_headline: 'Welcome to the 2&#8203;0&#8203;2&#8203;1 program'
 mod3_subhead: >-
-  We’ll take you through a journey consisting of 4 different product modules, through which you’ll access in-depth Shopping ads related knowledge. The content this year is brand new!
+  We’ll take you through a journey consisting of 4 different product modules, through which you’ll access in-depth Shopping ads related knowledge. The content this year is brand new!<br /><br />
+  Module 1: Shopping Product roadmap (Newest shopping products coming&nbsp;up!)<br />
+  Module 2: Local ads<br />
+  Module 3: Automated bidding<br />
+  Module 4: Export 
 mod4_headline: 'What’s in it for you?'
 mod4_subhead: >-
   You’ll join an elite group of practitioners with a Google certification in pitching, creating, and optimising Shopping Ads. As a Hero within your CSS, you’ll also be equipped with the material, insights, and best practices to train your colleagues and win more client pitches.
@@ -45,11 +49,18 @@ signoff: >-
   <strong>Your Comparison Shopping Partners Team</strong>
 
 main_content_pt: >-
-  <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if>
+  Time to become a ‘Comparison Shopping Hero’
+
   Time to become a Hero for your CSS in 2021. You've been nominated for our invite-only training course designed to help an elite group of practitioners at Comparison Shopping Partners become product experts. 
 
   Welcome to the 2021 program
-  We'll take you through a journey consisting of 4 different product modules, through which you’ll access in-depth Shopping ads related knowledge.
+
+  We’ll take you through a journey consisting of 4 different product modules, through which you’ll access in-depth Shopping ads related knowledge. The content this year is brand new!
+
+  Module 1: Shopping Product roadmap (Newest shopping products coming&nbsp;up!)
+  Module 2: Local ads
+  Module 3: Automated bidding
+  Module 4: Export 
 
   What’s in it for you?
   You’ll join an elite group of practitioners with a Google certification in pitching, creating, and optimising Shopping Ads. As a Hero within your CSS, you’ll also be equipped with the material, insights, and best practices to train your colleagues and win more client pitches.

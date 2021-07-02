@@ -12,7 +12,7 @@ mod1_subhead: >-
   You will be able to enter the webinar up to 1&#8203;5 minutes before the scheduled start time. 
 mod8_cta: 'Watch here'
 signoff: >-
-  Check out the <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021/resources#', 'ResourcesPage')}">Resources page</a> of the program website to submit your session-related questions and access educational content after the livestream.
+  Check out the <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'ResourcesPage')}">Resources page</a> of the program website to submit your session-related questions and access educational content after the livestream.
   <br /><br />
   If you missed our webinar last week, it’s still available to watch at a time that suits you. Module 1: <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021?talk=shopping-product-roadmap', 'ShoppingProductRoadmap')}">Shopping Product Roadmap</a>
   <br /><br />
@@ -29,7 +29,7 @@ main_content_pt: >-
   
   Watch here
   
-  Check out the <https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021/resources#>Resources page of the program website to submit your session-related questions and access educational content after the livestream.
+  Check out the <https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021>Resources page of the program website to submit your session-related questions and access educational content after the livestream.
 
   If you missed our webinar last week, it’s still available to watch at a time that suits you. Module 1: Shopping Product Roadmap
   <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021?talk=shopping-product-roadmap', 'ShoppingProductRoadmap')}>

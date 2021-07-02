@@ -8,9 +8,8 @@ Subject: Comparison Shopping Hero 2021: Automated Bidding livestream starts tomo
 <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Dear ${FirstName?capitalize}, <#else>Hi, </#if>
 We’re counting down the hours to Automated Bidding livestream which starts tomorrow at 11:00 a.m. CEST.
 You will be able to enter the webinar up to 15 minutes before the scheduled start time. 
-Watch here <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CTA')}>
-Check out the Resources page of the program website to submit your session-related questions and access educational content after the livestream. <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021/resources#', 'ResourcesPage')}>
-If you missed our webinar last week, it’s still available to watch at a time that suits you. Module 2: Local Ads <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021?talk=local-ads', 'ShoppingProductRoadmap')}>
+Check out the Resources page of the program website to submit your session-related questions and access educational content after the livestream.
+If you missed our webinar last week, it’s still available to watch at a time that suits you. Module 2: Local Ads <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021?talk=local-ads', 'LocalAds')}>
 See you online, Your Comparison Shopping Partners Team
 
 ----------------------------
