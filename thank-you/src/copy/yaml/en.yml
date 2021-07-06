@@ -9,7 +9,7 @@ mod1_subhead: >-
   <br /><br /> 
   Thanks for completing the livestream training, you’re just one step away from becoming a ‘Comparison Shopping Hero’.
   <br /><br /> 
-  Please submit your 5-minute video <a href="${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform?usp=sf_link', '5MinVideo')}">here</a> by <span style="white-space:nowrap;"><strong>J&#8203;u&#8203;l&#8203;y 1&#8203;4&#8203;t&#8203;h</strong></span>. Your video should focus on one of these two situations:
+  Please submit your 5-minute video <a href="${track('https://docs.google.com/forms/d/e/1FAIpQLSeeJTFBPrlHCLHJJT5eSO39eENwVpXh-XVh56NWcZN0aXM96g/viewform', '5MinVideo')}">here</a> by <span style="white-space:nowrap;"><strong>Au&#8203;gus&#8203;t 1&#8203;5&#8203;t&#8203;h</strong></span>. Your video should focus on one of these two situations:
   <br /><br /> 
   <ul>
     <li>you replicating the training to relevant members at your CSS (video-call recording is ok).</li>
@@ -18,13 +18,13 @@ mod1_subhead: >-
 mod2_subhead: >-
   Useful resources:
   <ul>
-    <li>You can still submit your product questions <a href="${track('https://forms.gle/GR6njRqY6FKdrmcy5', 'SubmitQuestions')}">here</a> until <span style="white-space:nowrap;"><strong>J&#8203;u&#8203;l&#8203;y 1&#8203;0&#8203;th</strong></span>.</li>
-    <li>Explore the <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero/resources#', 'ResourcesPage')}">Resources</a> section on the program website for answers to frequently asked product questions, webinar slides and more, to help you prepare.</li>
+    <li>You can still submit your product questions <a href="${track('https://docs.google.com/forms/d/e/1FAIpQLSdt1IEZ_HDGyol5LhKXzQLsn_acPeSleXUT5HSSt0RemJztGw/viewform', 'SubmitQuestions')}">here</a> until <span style="white-space:nowrap;"><strong>Au&#8203;gus&#8203;t 6&#8203;t&#8203;h</strong></span>.</li>
+    <li>Explore the <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'ResourcesPage')}">Resources</a> section on the program website for answers to frequently asked product questions, webinar slides and more, to help you prepare.</li>
     <li>Reach out to <strong><a href="mailto:cshero@google.com">cshero@google.com</a></strong> if you have questions about the program.</li>
   </ul>
 mod2_cta: 'Submit your video'
 signoff: >-
-  We will reach out to you starting <span style="white-space:nowrap;"><strong>J&#8203;ul&#8203;y 2&#8203;3&#8203;r&#8203;d</strong></span> and wish you good luck!
+  We will reach out to you starting <span style="white-space:nowrap;"><strong>Au&#8203;gus&#8203;t 1&#8203;5&#8203;t&#8203;h</strong></span> and wish you good luck!
   <br /> 
   <strong>Your Comparison Shopping Partners Team</strong>
 
@@ -33,23 +33,23 @@ main_content_pt: >-
 
   Thanks for completing the livestream training, you’re just one step away from becoming a ‘Comparison Shopping Hero’.
 
-  Please submit your 5-minute video here by July 14th. Your video should focus on one of these two situations:
+  Please submit your 5-minute video here by August 15th. Your video should focus on one of these two situations:
   <${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform?usp=sf_link', '5MinVideo')}>
   you replicating the training to relevant members at your CSS (video-call recording is ok).
   ou discussing the product as if you were pitching it to a client.
 
   Useful resources:
-  You can still submit your product questions here until July 10th.
-  <${track('https://forms.gle/GR6njRqY6FKdrmcy5', 'SubmitQuestions')}>
+  You can still submit your product questions here until August 6th.
+  <${track('https://docs.google.com/forms/d/e/1FAIpQLSdt1IEZ_HDGyol5LhKXzQLsn_acPeSleXUT5HSSt0RemJztGw/viewform', 'SubmitQuestions')}>
 
   Explore the Resources section on the program website for answers to frequently asked product questions, webinar slides and more, to help you prepare.
-  <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero/resources#', 'ResourcesPage')}>
+  <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'ResourcesPage')}>
   Reach out to cshero@google.com if you have questions about the program.
 
   Submit your video
-  <${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform', 'CTA')}>
+  <${track('https://docs.google.com/forms/d/e/1FAIpQLSeeJTFBPrlHCLHJJT5eSO39eENwVpXh-XVh56NWcZN0aXM96g/viewform', 'CTA')}>
 
-  We will reach out to you starting July 23rd and wish you good luck!
+  We will reach out to you starting August 15th and wish you good luck!
   Your Comparison Shopping Partners Team
 
 footer_pt: >-

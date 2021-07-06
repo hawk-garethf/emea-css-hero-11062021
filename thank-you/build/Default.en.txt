@@ -7,11 +7,11 @@ Subject: Comparison Shopping Hero: next steps to get certified.
 
 <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if>
 Thanks for completing the livestream training, you’re just one step away from becoming a ‘Comparison Shopping Hero’.
-Please submit your 5-minute video here by July 14th. Your video should focus on one of these two situations: <${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform?usp=sf_link', '5MinVideo')}> you replicating the training to relevant members at your CSS (video-call recording is ok). ou discussing the product as if you were pitching it to a client.
-Useful resources: You can still submit your product questions here until July 10th. <${track('https://forms.gle/GR6njRqY6FKdrmcy5', 'SubmitQuestions')}>
-Explore the Resources section on the program website for answers to frequently asked product questions, webinar slides and more, to help you prepare. <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero/resources#', 'ResourcesPage')}> Reach out to cshero@google.com if you have questions about the program.
-Submit your video <${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform', 'CTA')}>
-We will reach out to you starting July 23rd and wish you good luck! Your Comparison Shopping Partners Team
+Please submit your 5-minute video here by August 15th. Your video should focus on one of these two situations: <${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform?usp=sf_link', '5MinVideo')}> you replicating the training to relevant members at your CSS (video-call recording is ok). ou discussing the product as if you were pitching it to a client.
+Useful resources: You can still submit your product questions here until August 6th. <${track('https://docs.google.com/forms/d/e/1FAIpQLSdt1IEZ_HDGyol5LhKXzQLsn_acPeSleXUT5HSSt0RemJztGw/viewform', 'SubmitQuestions')}>
+Explore the Resources section on the program website for answers to frequently asked product questions, webinar slides and more, to help you prepare. <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'ResourcesPage')}> Reach out to cshero@google.com if you have questions about the program.
+Submit your video <${track('https://docs.google.com/forms/d/e/1FAIpQLSeeJTFBPrlHCLHJJT5eSO39eENwVpXh-XVh56NWcZN0aXM96g/viewform', 'CTA')}>
+We will reach out to you starting August 15th and wish you good luck! Your Comparison Shopping Partners Team
 
 ----------------------------
 This email was sent to ${EmailAddress} because you were identified as being interested in the Comparison Shopping Hero programme. Google maintains and processes your information according to its Privacy Policy, available at: https://policies.google.com/privacy. If you would like to no longer receive such communication please unsubscribe here. You have the right to request access to or to update your information and request that it be deleted. Please fill out the Data Access Request Form if you would like to exercise any of these rights.

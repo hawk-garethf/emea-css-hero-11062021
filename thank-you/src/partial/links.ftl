@@ -33,7 +33,7 @@
  
  
 {# CTA #}
-<#assign cta = link("https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero", "CTA") />
+<#assign cta = link("https://docs.google.com/forms/d/e/1FAIpQLSeeJTFBPrlHCLHJJT5eSO39eENwVpXh-XVh56NWcZN0aXM96g/viewform", "CTA") />
 
 
 {%- else %}
