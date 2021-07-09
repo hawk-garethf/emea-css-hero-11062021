@@ -7,12 +7,12 @@ page_title: 'Comparison Shopping Hero program'
 mod1_subhead: >-
   <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if>
   <br /><br /> 
-  You are just one step away before getting certified as a Comparison Shopping Hero: complete the final step of submitting your 5-minute video <a href="${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform?usp=sf_link', '5MinVideo')}">here</a>, no later than <span style="white-space:nowrap;"><strong>A&#8203;u&#8203;gu&#8203;s&#8203;t 1&#8203;4&#8203;t&#8203;h!</strong></span>
+  You are just one step away before getting certified as a Comparison Shopping Hero: complete the final step of submitting your 5-minute video <a href="${track('https://docs.google.com/forms/d/e/1FAIpQLSeeJTFBPrlHCLHJJT5eSO39eENwVpXh-XVh56NWcZN0aXM96g/viewform', '5MinVideo')}">here</a>, no later than <span style="white-space:nowrap;"><strong>A&#8203;u&#8203;gu&#8203;s&#8203;t 1&#8203;5&#8203;t&#8203;h!</strong></span>
   <br /><br /> 
   You can choose to train other members at your CSS (video-call is ok) OR to discuss the product as if you were pitching it to a client.
 mod2_cta: 'Submit your video'
 signoff: >-
-  <strong>Please note:</strong> watching all webinars is also a program requirement to apply for the certification. If you have missed some of the sessions, make sure you watch all modules <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CatchUp')}">here</a> by <span style="white-space:nowrap;"><strong>A&#8203;u&#8203;gu&#8203;s&#8203;t 1&#8203;4&#8203;t&#8203;h</strong></span>.
+  <strong>Please note:</strong> watching all webinars is also a program requirement to apply for the certification. If you have missed some of the sessions, make sure you watch all modules <a href="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CatchUp')}">here</a> by <span style="white-space:nowrap;"><strong>A&#8203;u&#8203;gu&#8203;s&#8203;t 1&#8203;5&#8203;t&#8203;h</strong></span>.
   <br /><br /> 
   You can do it!
   <br /> 
@@ -21,16 +21,16 @@ signoff: >-
 main_content_pt: >-
   <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if>
   
-  You are just one step away before getting certified as a Comparison Shopping Hero: complete the final step of submitting your 5-minute video here, no later than August 14th!
-  <${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform?usp=sf_link', '5MinVideo')}>
+  You are just one step away before getting certified as a Comparison Shopping Hero: complete the final step of submitting your 5-minute video here, no later than August 15th!
+  <${track('https://docs.google.com/forms/d/e/1FAIpQLSeeJTFBPrlHCLHJJT5eSO39eENwVpXh-XVh56NWcZN0aXM96g/viewform', '5MinVideo')}>
   
   You can choose to train other members at your CSS (video-call is ok) OR to discuss the product as if you were pitching it to a client.
 
   Submit your video
-  <${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform', 'CTA')}>
+  <${track('https://docs.google.com/forms/d/e/1FAIpQLSeeJTFBPrlHCLHJJT5eSO39eENwVpXh-XVh56NWcZN0aXM96g/viewform', 'CTA')}>
 
-  Please note: watching all webinars is also a program requirement to apply for the certification. If you have missed some of the sessions, make sure you watch all modules here by August 14th.
-  <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero', 'CatchUp')}>
+  Please note: watching all webinars is also a program requirement to apply for the certification. If you have missed some of the sessions, make sure you watch all modules here by August 15th.
+  <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CatchUp')}>
 
   You can do it!
   Your Comparison Shopping Partners Team
@@ -43,7 +43,7 @@ footer_pt: >-
   Privacy
   <https://policies.google.com/privacy>
   unsubscribe here
-  <${optout('https://docs.google.com/forms/d/e/1FAIpQLScsYPfmflnm3t72JPGljz5aYr9pG3mPh0eBUx4AvOPxJ1J9tA/viewform')}>
+  <${optout('https://docs.google.com/forms/d/e/1FAIpQLSfTTcdsq7cySEZEZZfIOzPO9ihX7Rx4SJnasHGW1_UF709Atw/viewform?resourcekey=0-3EHNs-kB3EI-KgvXwIbHkA')}>
   Data Access Request Form
   <https://support.google.com/policies/contact/sar>
 

@@ -7,7 +7,7 @@ page_title: 'Comparison Shopping Hero program'
 mod1_subhead: >-
   <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if>
   <br /><br /> 
-  Thanks for completing the livestream training, you’re just one step away from becoming a ‘Comparison Shopping Hero’.
+  Thanks for completing the training, you’re just one step away from becoming a ‘Comparison Shopping Hero’.
   <br /><br /> 
   Please submit your 5-minute video <a href="${track('https://docs.google.com/forms/d/e/1FAIpQLSeeJTFBPrlHCLHJJT5eSO39eENwVpXh-XVh56NWcZN0aXM96g/viewform', '5MinVideo')}">here</a> by <span style="white-space:nowrap;"><strong>Au&#8203;gus&#8203;t 1&#8203;5&#8203;t&#8203;h</strong></span>. Your video should focus on one of these two situations:
   <br /><br /> 
@@ -31,7 +31,7 @@ signoff: >-
 main_content_pt: >-
   <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if>
 
-  Thanks for completing the livestream training, you’re just one step away from becoming a ‘Comparison Shopping Hero’.
+  Thanks for completing the training, you’re just one step away from becoming a ‘Comparison Shopping Hero’.
 
   Please submit your 5-minute video here by August 15th. Your video should focus on one of these two situations:
   <${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform?usp=sf_link', '5MinVideo')}>

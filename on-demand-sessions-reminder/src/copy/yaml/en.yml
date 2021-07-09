@@ -1,7 +1,7 @@
 # Google Pixel(Floral) Welcome
 from: '"CSS Shopping Ads" <css-shopping-ads-noreply@google.com>'
 subject: >-
-  Comparison Shopping Hero: watch all sessions by 24 August to get certified
+  Comparison Shopping Hero: watch all sessions by August 15th to get certified
 preview_copy: ''
 page_title: 'Comparison Shopping Hero program'
 mod1_subhead: >-
@@ -11,7 +11,7 @@ mod1_subhead: >-
   <br /><br /> 
   Watching all sessions is a mandatory requirement to complete the program, even if you have already submitted your video.
   <br /><br /> 
-  Please watch all sessions no later than <span style="white-space:nowrap;">2&#8203;4&#8203;t&#8203;h A&#8203;u&#8203;gu&#8203;s&#8203;t, 1&#8203;.&#8203;0&#8203;0pm G&#8203;M&#8203;T</span>, to earn your <span style="white-space:nowrap;">Comparison&nbsp;Shopping&nbsp;Hero</span> certificate.
+  Please watch all sessions no later than <span style="white-space:nowrap;">A&#8203;u&#8203;gu&#8203;s&#8203;t 1&#8203;5&#8203;t&#8203;h, 1&#8203;.&#8203;0&#8203;0pm G&#8203;M&#8203;T</span>, to earn your <span style="white-space:nowrap;">Comparison&nbsp;Shopping&nbsp;Hero</span> certificate.
 mod2_cta: 'Watch now'
 signoff: >-
   We appreciate your time, thank you!
@@ -25,10 +25,10 @@ main_content_pt: >-
 
   Watching all sessions is a mandatory requirement to complete the program, even if you have already submitted your video.
 
-  Please watch all sessions no later than 24th August, 1.00pm GMT, to earn your Comparison Shopping Hero certificate.
+  Please watch all sessions no later than August 15th, 1.00pm GMT, to earn your Comparison Shopping Hero certificate.
 
   Watch now
-  <${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform', 'CTA')}>
+  <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CTA')}>
 
   We appreciate your time, thank you!
   Your Comparison Shopping Partners Team

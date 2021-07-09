@@ -41,7 +41,7 @@ main_content_pt: >-
   Lastly, please take a moment to share your feedback about the program and where we could improve next time.
 
   Take our survey
-  <${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform', 'CTA')}>
+  <${track('https://docs.google.com/forms/d/e/1FAIpQLSfjhPXL4dpm50Cq4-mKNA5Jm4iH0y8fQkR-m-_HInVrJbHV9A/viewform', 'CTA')}>
 
   We appreciate your time, thank you!
   Your Comparison Shopping Partners Team

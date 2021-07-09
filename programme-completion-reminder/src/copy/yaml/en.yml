@@ -25,7 +25,7 @@ main_content_pt: >-
   <${track('https://docs.google.com/forms/d/e/1FAIpQLSenAE79CSJgckoSb-hKpYJgpJv2sHQaYBlg07g_4jrbzJ_bkQ/viewform', 'Survey')}>
 
   Take our survey
-  <${track('https://docs.google.com/forms/d/e/1FAIpQLSfufJiqxWGjiMeoTfNGolIkSutLonQUt-f22DPBp_8YyTeNWQ/viewform', 'CTA')}>
+  <${track('https://docs.google.com/forms/d/e/1FAIpQLSfjhPXL4dpm50Cq4-mKNA5Jm4iH0y8fQkR-m-_HInVrJbHV9A/viewform', 'CTA')}>
 
   We appreciate your time, thank you!
   Your Comparison Shopping Partners Team
