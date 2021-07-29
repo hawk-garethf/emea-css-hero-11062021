@@ -1,0 +1,72 @@
+/**************** GLOBAL VS LOCAL LESS *****************
+  *                                                       *
+  * Important note: When importing files in LESS you will need to add a prefix to the file path depending on whether you are importing from the global or local `less` folder.
+  *
+  * If importing styles from the global folder add the prefix './../' to the file path.   
+      For example: './../assets/less/base_styles.less'
+
+  * If importing styles from a local folder you do NOT need the file path and only the prefix './' is required.
+      For example: './base_styles.less'
+  *
+*/
+@import './../assets/less/base_styles.less';
+
+// Message CSS
+
+.bg_img_m{
+  width: 360px;
+  height: 150px;
+  background-position: center;
+  background-size: 360px;
+}
+.bg_img_d{
+    width: 600px;
+    height: 250px;
+    background-position: center;
+    background-size: 600px;
+}
+
+.hero-font-style{
+  h1{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    color: #4285F4;
+  }
+}
+.font-600{
+  p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+.font-400{
+  p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+li{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 16px 0;
+}
+
+.list-style-circle{
+  list-style: circle;
+}
+
+.list-no-margin{
+    margin: 0;
+  }
+
+ul{
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
