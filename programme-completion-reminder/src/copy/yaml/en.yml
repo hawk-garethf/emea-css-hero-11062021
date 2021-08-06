@@ -1,33 +1,43 @@
 # Google Pixel(Floral) Welcome
 from: '"CSS Shopping Ads" <css-shopping-ads-noreply@google.com>'
 subject: >-
-  Comparison Shopping Hero: program tasks not completed
+  Comparison Shopping Hero 2021: Earn your Hero certification
 preview_copy: ''
 page_title: 'Comparison Shopping Hero program'
 mod1_subhead: >-
   <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if>
   <br /><br /> 
-  Sorry we missed you for the last step of the program.
+  You are just one step away before getting certified as a Comparison Shopping Hero 2&#8203;0&#8203;2&#8203;1. To get certified
   <br /><br /> 
-  Although you have not completed all tasks needed to become a Comparison Shopping Hero, we’d still like to hear your feedback: please take a moment to complete our 1-minute <a href="${track('https://docs.google.com/forms/d/e/1FAIpQLSenAE79CSJgckoSb-hKpYJgpJv2sHQaYBlg07g_4jrbzJ_bkQ/viewform', 'Survey')}">survey</a> to share what you liked, what you did not like and where we could improve next time.
-mod2_cta: 'Take our survey'
+  <ol>
+    <li>You would need to watch all 4 videos (Product Roadmap, Local ads, Export and Automated bidding)</li>
+    <li class="list-no-margin">Complete the final step of submitting your 5-minute video <a href="${track('https://docs.google.com/forms/d/e/1FAIpQLSeeJTFBPrlHCLHJJT5eSO39eENwVpXh-XVh56NWcZN0aXM96g/viewform', '5minuteSurvey')}">here</a>, no later than A&#8203;ug&#8203;u&#8203;st 1&#8203;5&#8203;th!</li>
+  </ol>
+mod2_subhead: >-
+  You can choose to train other members at your CSS (video-call is ok) OR to discuss the brand new products as if you were pitching it to a client.
+mod2_cta: 'Attend the videos'
+mod3_subhead: >-
+  Please reach out if you have any questions to <strong><a href="mailto:cshero@google.com">cshero@google.com</a></strong> or ask your PerfX&nbsp;AM.
 signoff: >-
-  We appreciate your time, thank you!
+  You can do it!
   <br /> 
   <strong>Your Comparison Shopping Partners Team</strong>
 
 main_content_pt: >-
   <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if>
 
-  Sorry we missed you for the last step of the program.
+  You are just one step away before getting certified as a Comparison Shopping Hero 2021. To get certified
 
-  Although you have not completed all tasks needed to become a Comparison Shopping Hero, we’d still like to hear your feedback: please take a moment to complete our 1-minute survey to share what you liked, what you did not like and where we could improve next time.
-  <${track('https://docs.google.com/forms/d/e/1FAIpQLSenAE79CSJgckoSb-hKpYJgpJv2sHQaYBlg07g_4jrbzJ_bkQ/viewform', 'Survey')}>
+  1. You would need to watch all 4 videos (Product Roadmap, Local ads, Export and Automated bidding) 2. complete the final step of submitting your 5-minute video here, no later than August 15th!<${track('https://docs.google.com/forms/d/e/1FAIpQLSeeJTFBPrlHCLHJJT5eSO39eENwVpXh-XVh56NWcZN0aXM96g/viewform', '5minuteSurvey')}>
 
-  Take our survey
-  <${track('https://docs.google.com/forms/d/e/1FAIpQLSfjhPXL4dpm50Cq4-mKNA5Jm4iH0y8fQkR-m-_HInVrJbHV9A/viewform', 'CTA')}>
+  You can choose to train other members at your CSS (video-call is ok) OR to discuss the brand new products as if you were pitching it to a client.
+  
+  Attend the videos
+  <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CTA')}>
 
-  We appreciate your time, thank you!
+  Please reach out if you have any questions to <cshero@google.com> or ask your PerfX AM.
+  
+  You can do it!
   Your Comparison Shopping Partners Team
 
 footer_pt: >-
