@@ -11,7 +11,7 @@ mod1_subhead: >-
   <br /><br /> 
   <ol>
     <li>You would need to <strong>watch all 4 videos</strong> (Product Roadmap, Local ads, Export and Automated bidding)</li>
-    <li class="list-no-margin">Complete the final step of submitting your 5-minute video <a href="${track('https://docs.google.com/forms/d/e/1FAIpQLSeeJTFBPrlHCLHJJT5eSO39eENwVpXh-XVh56NWcZN0aXM96g/viewform', '5minuteSurvey')}">here</a>, no later than A&#8203;ug&#8203;u&#8203;st 3&#8203;1&#8203;st to earn your new certificate.</li>
+    <li class="list-no-margin">After watching the videos you can submit <strong>your 5-minute video </strong> <a href="${track('https://docs.google.com/forms/d/e/1FAIpQLSeeJTFBPrlHCLHJJT5eSO39eENwVpXh-XVh56NWcZN0aXM96g/viewform', '5minuteSurvey')}">here</a>, no later than A&#8203;ug&#8203;u&#8203;st 3&#8203;1&#8203;st to earn your new certificate.</li>
   </ol>
 mod2_cta: 'Attend the videos'
 mod3_subhead: >-
@@ -26,7 +26,7 @@ main_content_pt: >-
 
   You have been nominated by your C-suite to the Comparison Shopping Hero 2021 program that contains 4 modules about the newest Product Roadmap 2021/22, Automated bidding, Local ads and Export. On top of the great topics, you will be able to earn an advanced certificate and grow your professional profile.
 
-  1. You would need to watch all 4 videos (Product Roadmap, Local ads, Export and Automated bidding) 2. complete the final step of submitting your 5-minute video here, no later than August 31st to earn your new certificate.<${track('https://docs.google.com/forms/d/e/1FAIpQLSeeJTFBPrlHCLHJJT5eSO39eENwVpXh-XVh56NWcZN0aXM96g/viewform', '5minuteSurvey')}>
+  1. You would need to watch all 4 videos (Product Roadmap, Local ads, Export and Automated bidding) 2. After watching the videos you can submit your 5-minute video here, no later than August 31st to earn your new certificate.<${track('https://docs.google.com/forms/d/e/1FAIpQLSeeJTFBPrlHCLHJJT5eSO39eENwVpXh-XVh56NWcZN0aXM96g/viewform', '5minuteSurvey')}>
   
   Attend the videos
   <${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CTA')}>
