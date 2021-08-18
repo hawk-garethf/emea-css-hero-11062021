@@ -1,0 +1,87 @@
+{# **************** GLOBAL VS LOCAL ASSETS *****************
+  *                                                       *
+  * Important note: When importing, including, or extending files in Nunjucks the file path is relative to the campaign level.
+  * In this example the file path is pointing to the global 'assets' folder which contains another global folder 'layout' containing 'sublayout.html'. 
+  * 'sublayout.html' lives in a global folder so it will be available to all messages in the campaign.
+  * To override a global asset file with a local version change the file path to the message level:
+    - For example, to use a local 'sublayout.html' file:
+      change 'assets/layout/sublayout.html' to 'message-template/src/layout/sublayout.html'
+#}
+{%- extends 'assets/layout/sublayout.html' %}
+
+{# set image server #}
+{%- set gum = "https://services.google.com/fh/files/emails/" -%}
+{#
+  Add images to 'assets/images/ and uncomment this 'gumdrop' path for local image preview:
+  {%- set gum = "../../assets/images/" -%}
+#}
+{%- set img_spacer = gum ~ "spacer.png" -%}
+
+{# MOD1 Hero #}
+{%- set mod1_img_m_preload = gum ~ "css_hero_m_320_133_x2.jpg" %}
+{%- set mod1_img_d_preload = gum ~ "comparison_shopping_hero_v4_option2.jpg" %}
+{%- set mod1_img_d = gum ~ "comparison_shopping_hero_v4_option2.gif" %}
+{%- set mod1_img_m = gum ~ "css_hero_m_320_133_x2.gif" %}
+
+{# declare copy splits (if needed) #}
+
+{# freemarker #}
+{%- block freemarker %}
+  {%- include 'welcome/src/partial/links.ftl' %}
+{%- endblock %}
+
+{%- block email_partials %}
+
+{# Note: Remove this SET and FOR loop if you are not using mod library macros for your build #}  
+  {% set contents = [
+    base.comment("!-------------- MOD1 Header -------------!"),
+    base.spacer("35"),
+    base.comment("!-------------- Stack 1.1 -------------!"),
+    base.module(
+      class="stack-1-1 mobile bg_img_m", bg_img=mod1_img_m_preload, width="360", height="150",
+      contents=[
+        base.box(
+          class="stack-inner-box", 
+          contents=[
+            base.image(mod1_img_m, link="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CTA')}", alt="Register now", width="360", height="150", class="mobile")
+          ]
+        )
+      ]
+    ),
+    base.module(
+      class="stack-1-1 desktop bg_img_d", bg_img=mod1_img_d_preload, width="600", height="250",
+      contents=[
+        base.box(
+          class="stack-inner-box", 
+          contents=[
+            base.image(mod1_img_d, link="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CTA')}", alt="Register now", width="600", height="250", class="desktop")          ]
+        )
+      ]
+    ),
+    base.comment("!-------------- Stack 1.1 -------------!"),
+    base.module(
+      class="stack-1-1",
+      contents=[
+        base.box(
+          class="stack-inner-box", bgcolor="#ffffff",
+          contents=[
+            base.spacer("55"),
+            base.text(mod1_subhead, class="left font-400"),
+            base.spacer("35"),
+            base.button(mod2_cta, link="${track('https://adsonair.withgoogle.com/events/become-a-comparison-shopping-hero-2021', 'CTA')}", class="solid-blue", btn_align="center"),
+            base.spacer("35"),
+            base.text(mod3_subhead, class="left font-400"),
+            base.spacer("35"),
+            base.text(signoff, class="solid-blue font-400 left"),
+            base.spacer("35")
+          ]
+        )
+      ]
+    )
+  ] %}
+  
+  {% for content in contents %}
+    {{ content }}
+  {% endfor %}
+
+{%- endblock %}

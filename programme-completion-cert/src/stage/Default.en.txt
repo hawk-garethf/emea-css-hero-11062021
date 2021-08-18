@@ -6,10 +6,10 @@ Subject: Comparison Shopping Hero: congratulations, you made it
 
 
 <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if>
-Excellent work, you’ve successfully completed the Comparison Shopping Hero program.
-As a Comparison Shopping Hero, we hope you feel empowered to act as the Shopping Ads expert at your CSS. 
+Excellent work, you’ve successfully completed the Comparison Shopping Hero 2021 program.
+As a Comparison Shopping Hero in 2021, we hope you feel empowered to act as the Shopping Ads expert at your CSS. 
 Here are a few ways for you to amplify your achievements:
-Access your certificate here. Download your Comparison Shopping Hero signature asset here. Follow these steps to include your certificate on LinkedIn.
+Access your certificate here.<${certificate}> Download your Comparison Shopping Hero signature asset here.<${track('http://services.google.com/fh/files/misc/external_csh_email_signature.jpg', 'Signature')}> Follow these steps to include your certificate on LinkedIn.<${track('https://services.google.com/fh/files/misc/cs_hero2021_linkedin_instructions.pdf', 'Steps')}>
 Lastly, please take a moment to share your feedback about the program and where we could improve next time.
 Take our survey <${track('https://docs.google.com/forms/d/e/1FAIpQLSfjhPXL4dpm50Cq4-mKNA5Jm4iH0y8fQkR-m-_HInVrJbHV9A/viewform', 'CTA')}>
 We appreciate your time, thank you! Your Comparison Shopping Partners Team

@@ -1,0 +1,13 @@
+From: {{ from }}
+Subject: {{ subject }}
+
+{# freemarker #}
+<${view_in_browser()}>
+
+{# Add plain text content within the plain_text block filter #}
+{% filter plain_text %}
+{{ main_content_pt }}
+
+{{ footer_pt }}
+
+{% endfilter %}

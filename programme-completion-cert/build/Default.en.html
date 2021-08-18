@@ -403,10 +403,10 @@
   <tr>
     <td class="copy p left font-400" style="font-family: 'Google Sans', Roboto, sans-serif, Arial;" align="left !important">
       <p style="color: #423F3F; font-size: 18px; font-weight: 400; line-height: 24px; margin: 0;">
-          <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if> <br><br> Excellent work, you’ve successfully completed the Comparison Shopping Hero program. <br><br> As a Comparison Shopping Hero, we hope you feel empowered to act as the Shopping Ads expert at your CSS.  <br><br> Here are a few ways for you to amplify your achievements: <ul style="margin-block-end: 0; margin-block-start: 0;">
-  <li style="font-size: 18px; font-weight: 400; line-height: 24px; margin: 0 0 16px 0;">Access your certificate here.</li>
-  <li style="font-size: 18px; font-weight: 400; line-height: 24px; margin: 0 0 16px 0;">Download your Comparison Shopping Hero signature asset here.</li>
-  <li class="list-no-margin" style="font-size: 18px; font-weight: 400; line-height: 24px; margin: 0;">Follow these steps to include your certificate on LinkedIn.</li>
+          <#if FirstName?? && FirstName?has_content && FirstName?length gt 1>Hi ${FirstName?capitalize}, <#else>Hi, </#if> <br><br> Excellent work, you’ve successfully completed the Comparison Shopping Hero 2&#8203;0&#8203;2&#8203;1&#8203; program. <br><br> As a Comparison Shopping Hero in 2&#8203;0&#8203;2&#8203;1, we hope you feel empowered to act as the Shopping Ads expert at your CSS.  <br><br> Here are a few ways for you to amplify your achievements: <ul style="margin-block-end: 0; margin-block-start: 0;">
+  <li style="font-size: 18px; font-weight: 400; line-height: 24px; margin: 0 0 16px 0;">Access your certificate <a href="${certificate}" style="color: #1967D2; text-decoration: none;">here</a>.</li>
+  <li style="font-size: 18px; font-weight: 400; line-height: 24px; margin: 0 0 16px 0;">Download your Comparison Shopping Hero signature asset <a href="${track('http://services.google.com/fh/files/misc/external_csh_email_signature.jpg', 'Signature')}" style="color: #1967D2; text-decoration: none;">here</a>.</li>
+  <li class="list-no-margin" style="font-size: 18px; font-weight: 400; line-height: 24px; margin: 0;">Follow <a href="${track('https://services.google.com/fh/files/misc/cs_hero2021_linkedin_instructions.pdf', 'Steps')}" style="color: #1967D2; text-decoration: none;">these steps</a> to include your certificate on LinkedIn.</li>
 </ul>
       </p>
     </td>
